@@ -8,6 +8,7 @@ const
 var
     a, b: integer;
     arr: array[1..2] of string;
+    k: string;
 
 begin
     writeln('lol')

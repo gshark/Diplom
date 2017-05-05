@@ -63,7 +63,7 @@ constantDefinitionPart returns [ASTNode ast]
 constantDefinition returns [ASTNode ast]
    : identifier EQUAL constant {
         ASTNode a = new TextNode($identifier.text);
-        ASTNode b = new TextNode($constant.text);
+        ASTNode b = $constant.ast;
         $ast = new BinOp(a, b, "=");}
    ;
 
@@ -71,12 +71,12 @@ constantChr
    : CHR LPAREN unsignedInteger RPAREN
    ;
 
-constant
-   : unsignedNumber
-   | sign unsignedNumber
-   | identifier
-   | sign identifier
-   | string
+constant returns [ASTNode ast]
+   : unsignedNumber {$ast = new ConstNode($unsignedNumber.text, "unsignedNumber");}
+   | sign unsignedNumber {$ast = new ConstNode($sign.text + $unsignedNumber.text, "signedNumber");}
+   | identifier {$ast = new ConstNode($identifier.text, "identifier");}
+   | sign identifier {$ast = new ConstNode($sign.text + $identifier.text, "signedIdentifier");}
+   | string {$ast = new ConstNode($string.text, "string");}
    | constantChr
    ;
 
@@ -118,25 +118,26 @@ procedureType
    : PROCEDURE (formalParameterList)?
    ;
 
-type
-   : simpleType
-   | structuredType
-   | pointerType
+type returns [ASTNode ast]
+   : simpleType {$ast = $simpleType.ast;}
+   | structuredType {$ast = $structuredType.ast;}
+   | pointerType {$ast = $pointerType.ast;}
    ;
 
-simpleType
+simpleType returns [ASTNode ast]
    : scalarType
-   | subrangeType
-   | typeIdentifier
-   | stringtype
+   | subrangeType {$ast = $subrangeType.ast;}
+   | typeIdentifier {$ast = new TypeNode($typeIdentifier.text);}
+   | stringtype {$ast = new TypeNode("string");}
    ;
 
 scalarType
    : LPAREN identifierList RPAREN
    ;
 
-subrangeType
-   : constant DOTDOT constant
+subrangeType returns [ASTNode ast]
+   : constant {ASTNode l = $constant.ast;}
+   DOTDOT constant {ASTNode r = $constant.ast; $ast = new TypeNode("range", l, r);}
    ;
 
 typeIdentifier
@@ -144,13 +145,13 @@ typeIdentifier
    | (CHAR | BOOLEAN | INTEGER | REAL | STRING)
    ;
 
-structuredType
+structuredType returns [ASTNode ast]
    : PACKED unpackedStructuredType
-   | unpackedStructuredType
+   | unpackedStructuredType {$ast = $unpackedStructuredType.ast;}
    ;
 
-unpackedStructuredType
-   : arrayType
+unpackedStructuredType returns [ASTNode ast]
+   : arrayType {$ast = $arrayType.ast;}
    | recordType
    | setType
    | fileType
@@ -160,21 +161,22 @@ stringtype
    : STRING LBRACK (identifier | unsignedNumber) RBRACK
    ;
 
-arrayType
+arrayType returns [ASTNode ast]
    : ARRAY LBRACK typeList RBRACK OF componentType
+        {$ast = new TypeNode("array", $typeList.list, $componentType.ast);}
    | ARRAY LBRACK2 typeList RBRACK2 OF componentType
    ;
 
-typeList
-   : indexType (COMMA indexType)*
+typeList returns [List<ASTNode> list = new ArrayList();]
+   : indexType {$list.add($indexType.ast);}(COMMA indexType {$list.add($indexType.ast);})*
    ;
 
-indexType
-   : simpleType
+indexType returns [ASTNode ast]
+   : simpleType {$ast = $simpleType.ast;}
    ;
 
-componentType
-   : type
+componentType returns [ASTNode ast]
+   : type {$ast = $type.ast;}
    ;
 
 recordType
@@ -220,16 +222,28 @@ fileType
    | FILE
    ;
 
-pointerType
+pointerType returns [ASTNode ast]
    : POINTER typeIdentifier
    ;
 
 variableDeclarationPart returns [ASTNode ast]
-   : VAR variableDeclaration (SEMI variableDeclaration)* SEMI
+   : VAR variableDeclaration {
+        List<ASTNode> list = new ArrayList<>();
+        list.add(new TextNode("var\n"));
+        list.add(new StringNode($variableDeclaration.ast));
+   }
+   (SEMI variableDeclaration {list.add(new StringNode($variableDeclaration.ast));})*
+   SEMI {$ast = new UniversalNode(list, "Vars");}
    ;
 
-variableDeclaration
-   : identifierList COLON type
+variableDeclaration returns [ASTNode ast]
+   : identifierList COLON type {
+        List<String> idl = $identifierList.idl;
+        ASTNode t = $type.ast;
+        ASTNode a = new VarNode(idl.get(0), t);
+        for (int i = 1; i < idl.size(); i++)
+            a = new BinOp(a, new VarNode(idl.get(i), t), ",");
+        $ast =  new BinOp(a, t, ":");}
    ;
 
 procedureAndFunctionDeclarationPart returns [ASTNode ast]
@@ -260,8 +274,8 @@ parameterGroup
    : identifierList COLON typeIdentifier
    ;
 
-identifierList
-   : identifier (COMMA identifier)*
+identifierList returns [List<String> idl = new ArrayList<>()]
+   : identifier {$idl.add($identifier.text);}(COMMA identifier {$idl.add($identifier.text);})*
    ;
 
 constList

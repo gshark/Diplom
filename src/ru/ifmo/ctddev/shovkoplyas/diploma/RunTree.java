@@ -29,7 +29,7 @@ public class RunTree {
             ASTNode ast = result.ast;
             //String res = result.s;
             //System.err.println(res);
-            DSutils.show(ast, 150, 20);
+            DSutils.show(ast, 100, 20);
             try (PrintWriter out = new PrintWriter("output.pas")) {
                 out.println(ast.toString());
             }

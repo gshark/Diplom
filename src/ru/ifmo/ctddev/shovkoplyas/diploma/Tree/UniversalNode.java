@@ -49,6 +49,6 @@ public class UniversalNode implements ASTNode {
 
     @Override
     public Color DSgetColor() {
-        return Color.ORANGE;
+        return Color.DARK_GRAY;
     }
 }

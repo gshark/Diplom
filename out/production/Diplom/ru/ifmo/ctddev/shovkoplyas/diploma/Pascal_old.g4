@@ -233,7 +233,8 @@ pointerType
 
 variableDeclarationPart returns [String code]
 
-   : VAR variableDeclaration {$code = "var\n"; addLeft();  $code += indent + $variableDeclaration.code;} (SEMI variableDeclaration {$code += "\n" + indent + $variableDeclaration.code;} )* SEMI {updateIndent();}
+   : VAR variableDeclaration {$code = "var\n"; addLeft();  $code += indent + $variableDeclaration.code;}
+   (SEMI variableDeclaration {$code += "\n" + indent + $variableDeclaration.code;} )* SEMI {updateIndent();}
    ;
 
 variableDeclaration returns [String code]
