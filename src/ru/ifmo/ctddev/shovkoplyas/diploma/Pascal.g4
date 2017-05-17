@@ -33,7 +33,7 @@ block returns [List<ASTNode> astList = new ArrayList<>()]
    | constantDefinitionPart {$astList.add($constantDefinitionPart.ast);}
    | typeDefinitionPart
    | variableDeclarationPart {$astList.add($variableDeclarationPart.ast);}
-   | procedureAndFunctionDeclarationPart {$astList.add($variableDeclarationPart.ast);}
+   | procedureAndFunctionDeclarationPart {$astList.add($procedureAndFunctionDeclarationPart.ast);}
    | usesUnitsPart
    | IMPLEMENTATION)* compoundStatement {$astList.add($compoundStatement.ast);}
    ;
@@ -167,7 +167,7 @@ arrayType returns [ASTNode ast]
    | ARRAY LBRACK2 typeList RBRACK2 OF componentType
    ;
 
-typeList returns [List<ASTNode> list = new ArrayList();]
+typeList returns [List<ASTNode> list = new ArrayList()]
    : indexType {$list.add($indexType.ast);}(COMMA indexType {$list.add($indexType.ast);})*
    ;
 
@@ -247,34 +247,46 @@ variableDeclaration returns [ASTNode ast]
    ;
 
 procedureAndFunctionDeclarationPart returns [ASTNode ast]
-   : procedureOrFunctionDeclaration SEMI
+   : procedureOrFunctionDeclaration SEMI {$ast = new StringNode($procedureOrFunctionDeclaration.ast);}
    ;
 
-procedureOrFunctionDeclaration
-   : procedureDeclaration
-   | functionDeclaration
+procedureOrFunctionDeclaration returns [ASTNode ast]
+   : procedureDeclaration {$ast = $procedureDeclaration.ast;}
+   | functionDeclaration {$ast = $functionDeclaration.ast;}
    ;
 
-procedureDeclaration
-   : PROCEDURE identifier (formalParameterList)? SEMI block
+procedureDeclaration returns [ASTNode ast, boolean flag = false]
+   : PROCEDURE identifier (formalParameterList {$flag = true;})? SEMI block {
+        ASTNode b = new UniversalNode($block.astList, "block");
+        $ast = new ProcedureNode($identifier.text, $flag ? $formalParameterList.ast : null, b);}
    ;
 
-formalParameterList
-   : LPAREN formalParameterSection (SEMI formalParameterSection)* RPAREN
+formalParameterList returns [ASTNode ast, ArrayList<ASTNode> list = new ArrayList()]
+   : LPAREN formalParameterSection {$list.add($formalParameterSection.ast);}
+   (SEMI formalParameterSection {$list.add($formalParameterSection.ast);})* RPAREN {
+        $ast = new UniversalNode($list,  "Params");
+   }
    ;
 
-formalParameterSection
-   : parameterGroup
-   | VAR parameterGroup
+formalParameterSection returns [ASTNode ast]
+   : parameterGroup {$ast = $parameterGroup.ast;}
+   | VAR parameterGroup {$ast = new BinOp(new TextNode("var"), $parameterGroup.ast, " ");}
    | FUNCTION parameterGroup
    | PROCEDURE parameterGroup
    ;
 
-parameterGroup
-   : identifierList COLON typeIdentifier
+parameterGroup returns [ASTNode ast]
+   : identifierList COLON typeIdentifier {
+        ASTNode t = new TypeNode($typeIdentifier.text);
+        List<String> idl = $identifierList.idl;
+        ASTNode a = new VarNode(idl.get(0), t);
+        for (int i = 1; i < idl.size(); i++)
+            a = new BinOp(a, new VarNode(idl.get(i), t), ",");
+        $ast =  new BinOp(a, t, ":");
+   }
    ;
 
-identifierList returns [List<String> idl = new ArrayList<>()]
+identifierList returns [ArrayList<String> idl = new ArrayList<>()]
    : identifier {$idl.add($identifier.text);}(COMMA identifier {$idl.add($identifier.text);})*
    ;
 
@@ -282,7 +294,7 @@ constList
    : constant (COMMA constant)*
    ;
 
-functionDeclaration
+functionDeclaration returns [ASTNode ast]
    : FUNCTION identifier (formalParameterList)? COLON resultType SEMI block
    ;
 

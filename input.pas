@@ -1,15 +1,11 @@
-program constVarExample;
+program input;
 
-const
-    N = 3;
-    B = 1;
-    Author = 'Shovkoplias';
-
+procedure tmp(var l, r:integer);
 var
-    a, b: integer;
-    arr: array[1..2] of string;
-    k: string;
+t:text;
+begin
+writeln('kek');
+end;
 
 begin
-    writeln('lol')
 end.
