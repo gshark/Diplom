@@ -22,6 +22,16 @@ public class BinOp extends UniversalNode {
 
     @Override
     public String toString() {
-        return left.toString() + " " + text + " " + right.toString();
+        StringBuilder sb = new StringBuilder();
+        if (left != null)
+            sb.append(left.toString());
+        else
+            sb.append("null");
+        sb.append(" ").append(text).append(" ");
+        if (right != null)
+            sb.append(right.toString());
+        else
+            sb.append("null");
+        return sb.toString();
     }
 }

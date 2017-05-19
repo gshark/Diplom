@@ -7,11 +7,13 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by shovkoplyas on 17.05.2017.
+ * Created by shovkoplyas on 19.05.2017.
  */
-public class ProcedureNode implements ASTNode {
-    public ProcedureNode(String name, ASTNode params, ASTNode block) {
+public class FunctionNode implements ASTNode {
+
+    public FunctionNode(String name, TypeNode type, ASTNode params, ASTNode block) {
         this.name = name;
+        this.type = type;
         this.block = block;
         this.params = params;
     }
@@ -19,26 +21,27 @@ public class ProcedureNode implements ASTNode {
     @Override
     public List<ASTNode> getChildren() {
         if (params == null) {
-            return Arrays.asList(new ASTNode[]{block});
+            return Arrays.asList(new ASTNode[]{type, block});
         }
-        return Arrays.asList(new ASTNode[]{params, block});
+        return Arrays.asList(new ASTNode[]{type, params, block});
     }
 
     String name;
     ASTNode params, block;
+    TypeNode type;
 
     @Override
     public String toString() {
-        return String.format("procedure %s(%s);\n%s", name, params.toString(), block.toString());
+        return String.format("function %s(%s):%s;\n%s", name, params.toString(), type.toString(), block.toString());
 
     }
 
     @Override
     public DSTreeNode[] DSgetChildren() {
         if (params == null) {
-            return new DSTreeNode[]{block};
+            return new DSTreeNode[]{type, block};
         }
-        return new DSTreeNode[]{params, block};
+        return new DSTreeNode[]{type, params, block};
     }
 
     @Override
@@ -48,6 +51,6 @@ public class ProcedureNode implements ASTNode {
 
     @Override
     public Color DSgetColor() {
-        return Color.magenta;
+        return Color.CYAN;
     }
 }

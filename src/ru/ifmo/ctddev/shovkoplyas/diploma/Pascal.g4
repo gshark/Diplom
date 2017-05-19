@@ -247,7 +247,7 @@ variableDeclaration returns [ASTNode ast]
    ;
 
 procedureAndFunctionDeclarationPart returns [ASTNode ast]
-   : procedureOrFunctionDeclaration SEMI {$ast = new StringNode($procedureOrFunctionDeclaration.ast);}
+   : procedureOrFunctionDeclaration SEMI {$ast = $procedureOrFunctionDeclaration.ast;}
    ;
 
 procedureOrFunctionDeclaration returns [ASTNode ast]
@@ -294,40 +294,47 @@ constList
    : constant (COMMA constant)*
    ;
 
-functionDeclaration returns [ASTNode ast]
-   : FUNCTION identifier (formalParameterList)? COLON resultType SEMI block
+functionDeclaration returns [ASTNode ast, boolean flag = false]
+   : FUNCTION identifier (formalParameterList {$flag = true;})? COLON resultType SEMI block {
+           ASTNode b = new UniversalNode($block.astList, "block");
+           TypeNode t = new TypeNode($resultType.text);
+           $ast = new FunctionNode($identifier.text, t, $flag ? $formalParameterList.ast : null, b);}
    ;
 
 resultType
    : typeIdentifier
    ;
 
-statement
+statement returns [ASTNode ast]
    : label COLON unlabelledStatement
-   | unlabelledStatement
+   | unlabelledStatement {$ast = $unlabelledStatement.ast;}
    ;
 
-unlabelledStatement
-   : simpleStatement
-   | structuredStatement
+unlabelledStatement returns [ASTNode ast]
+   : simpleStatement {$ast = $simpleStatement.ast;}
+   | structuredStatement {$ast = $structuredStatement.ast;}
    ;
 
-simpleStatement
-   : assignmentStatement
-   | procedureStatement
+simpleStatement returns [ASTNode ast]
+   : assignmentStatement {$ast = $assignmentStatement.ast;}
+   | procedureStatement {$ast = $procedureStatement.ast;}
    | gotoStatement
-   | emptyStatement
+   | emptyStatement {$ast = null;}
    ;
 
-assignmentStatement
-   : variable ASSIGN expression
+assignmentStatement returns [ASTNode ast]
+   : variable ASSIGN expression {$ast = new BinOp($variable.ast, $expression.ast, ":=");}
    ;
 
-variable
-   : (AT identifier | identifier) (LBRACK expression (COMMA expression)* RBRACK | LBRACK2 expression (COMMA expression)* RBRACK2 | DOT identifier | POINTER)*
+variable returns [ASTNode ast]
+   : (AT identifier | identifier)
+        (LBRACK expression (COMMA expression)* RBRACK
+        | LBRACK2 expression (COMMA expression)* RBRACK2
+        | DOT identifier
+        | POINTER)*
    ;
 
-expression
+expression returns [ASTNode ast]
    : simpleExpression ((EQUAL | NOT_EQUAL | LT | LE | GE | GT | IN) simpleExpression)*
    ;
 
@@ -381,7 +388,7 @@ element
    : expression (DOTDOT expression)?
    ;
 
-procedureStatement
+procedureStatement returns [ASTNode ast]
    : identifier (LPAREN parameterList RPAREN)?
    ;
 
@@ -401,7 +408,7 @@ empty
    :/* empty */
    ;
 
-structuredStatement
+structuredStatement returns [ASTNode ast]
    : compoundStatement
    | conditionalStatement
    | repetetiveStatement
@@ -409,11 +416,11 @@ structuredStatement
    ;
 
 compoundStatement returns [ASTNode ast]
-   : BEGIN statements END
+   : BEGIN statements END {$ast = new StringNode(new CompoundNode($statements.astList));}
    ;
 
-statements
-   : statement (SEMI statement)*
+statements returns [List<ASTNode> astList = new ArrayList<>()]
+   : statement {$astList.add(new StringNode($statement.ast));}(SEMI statement {$astList.add(new StringNode($statement.ast));})*
    ;
 
 conditionalStatement

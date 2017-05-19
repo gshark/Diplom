@@ -2,104 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0130a685-3af5-4c04-9ed0-5cd9e8e2a715" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input1.pas" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ActualParameterContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ActualParameterContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ArrayTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ArrayTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$AssignmentStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$AssignmentStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$BaseTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$BaseTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$BlockContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$BlockContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseListElementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseListElementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ComponentTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ComponentTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CompoundStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CompoundStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConditionalStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConditionalStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantChrContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantChrContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantDefinitionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantDefinitionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantDefinitionPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantDefinitionPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FactorContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FactorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FieldListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FieldListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FileTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FileTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FinalValueContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FinalValueContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FixedPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FixedPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterSectionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterSectionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDesignatorContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDesignatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$GotoStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$GotoStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IdentifierListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IdentifierListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IfStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IfStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IndexTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IndexTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$InitialValueContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$InitialValueContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$LabelContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$LabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$LabelDeclarationPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$LabelDeclarationPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterGroupContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterGroupContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$PointerTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$PointerTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureAndFunctionDeclarationPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureAndFunctionDeclarationPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureOrFunctionDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureOrFunctionDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordSectionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordSectionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordVariableListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordVariableListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepeatStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepeatStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepetetiveStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepetetiveStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ResultTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ResultTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ScalarTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ScalarTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignedFactorContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignedFactorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementsContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StringContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StringContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StringtypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StringtypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SubrangeTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SubrangeTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TagContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TagContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TermContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TermContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeDefinitionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeDefinitionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeDefinitionPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeDefinitionPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeIdentifierContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeIdentifierContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnlabelledStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnlabelledStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnpackedStructuredTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnpackedStructuredTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedConstantContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedConstantContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedIntegerContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedIntegerContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedNumberContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedNumberContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedRealContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedRealContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UsesUnitsPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UsesUnitsPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableDeclarationPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableDeclarationPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariantContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariantContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariantPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariantPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WhileStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WhileStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WithStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WithStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalLexer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ActualParameterContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ArrayTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$AssignmentStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$BaseTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$BlockContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseListElementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ComponentTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CompoundStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConditionalStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantChrContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantDefinitionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstantDefinitionPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ExpressionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FactorContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FieldListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FileTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FinalValueContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FixedPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterSectionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDeclarationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDesignatorContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$GotoStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IdentifierContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IdentifierListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IfStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IndexTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$InitialValueContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$LabelContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$LabelDeclarationPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterGroupContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$PointerTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureAndFunctionDeclarationPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureDeclarationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureOrFunctionDeclarationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProgramContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProgramHeadingContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordSectionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordVariableListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepeatStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepetetiveStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ResultTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ScalarTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignedFactorContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleExpressionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementsContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StringContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StringtypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SubrangeTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TagContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TermContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeDefinitionContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeDefinitionPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeIdentifierContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TypeListContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnlabelledStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnpackedStructuredTypeContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedConstantContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedIntegerContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedNumberContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedRealContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UsesUnitsPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableDeclarationContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableDeclarationPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariantContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariantPartContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WhileStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WithStatementContext.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.pas" afterPath="$PROJECT_DIR$/input.pas" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.pas" afterPath="$PROJECT_DIR$/output.pas" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" />
     </list>
     <ignored path="Diplom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,8 +135,8 @@
             <file leaf-file-name="Pascal_old.g4" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="500">
-                    <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+                  <state relative-caret-position="550">
+                    <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
                     <folding />
                   </state>
                 </provider>
@@ -144,8 +156,8 @@
       <file leaf-file-name="Pascal.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+            <state relative-caret-position="128">
+              <caret line="249" column="84" selection-start-line="249" selection-start-column="84" selection-end-line="249" selection-end-column="84" />
               <folding>
                 <element signature="e#17#106#1" expanded="true" />
                 <element signature="e#108#128#1" expanded="true" />
@@ -154,38 +166,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java">
+      <file leaf-file-name="BinOp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="e#1744#1745#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.pas" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.pas">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="463">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompoundNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,12 +195,10 @@
       <file leaf-file-name="VarNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="388">
+              <caret line="43" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -207,25 +207,48 @@
       <file leaf-file-name="UniversalNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            <state relative-caret-position="350">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcedureNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java">
+      <file leaf-file-name="StringNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="488">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+              <folding>
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.pas" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.pas">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,8 +257,8 @@
       <file leaf-file-name="output.pas" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/output.pas">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -270,29 +293,31 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/OneChildNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/OCNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ASTNode.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java" />
-        <option value="$PROJECT_DIR$/output.pas" />
-        <option value="$PROJECT_DIR$/input.pas" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" />
         <option value="$PROJECT_DIR$/input1.pas" />
         <option value="$PROJECT_DIR$/src/input.pas" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java" />
+        <option value="$PROJECT_DIR$/input.pas" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" />
+        <option value="$PROJECT_DIR$/output.pas" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -341,6 +366,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,6 +401,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="diploma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diploma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,9 +480,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -765,24 +812,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33443707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25188375" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -794,6 +840,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -826,50 +873,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33100">
-          <caret line="1474" column="12" selection-start-line="1474" selection-start-column="12" selection-end-line="1474" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#7565#7566#0" expanded="false" />
-            <element signature="e#7589#7590#0" expanded="false" />
-            <element signature="e#7639#7640#0" expanded="false" />
-            <element signature="e#7663#7664#0" expanded="false" />
-            <element signature="e#8282#8283#0" expanded="false" />
-            <element signature="e#8343#8344#0" expanded="false" />
-            <element signature="e#8375#8376#0" expanded="false" />
-            <element signature="e#8427#8428#0" expanded="false" />
-            <element signature="e#8650#8651#0" expanded="false" />
-            <element signature="e#8687#8688#0" expanded="false" />
-            <element signature="e#10107#10108#0" expanded="false" />
-            <element signature="e#10164#10165#0" expanded="false" />
-            <element signature="e#10362#10363#0" expanded="false" />
-            <element signature="e#10423#10424#0" expanded="false" />
-            <element signature="e#10649#10650#0" expanded="false" />
-            <element signature="e#10686#10687#0" expanded="false" />
-            <element signature="e#12786#12787#0" expanded="false" />
-            <element signature="e#12823#12824#0" expanded="false" />
-            <element signature="e#81455#81456#0" expanded="false" />
-            <element signature="e#83540#83541#0" expanded="false" />
-            <element signature="e#103916#103917#0" expanded="false" />
-            <element signature="e#125752#125753#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -912,16 +915,8 @@
         <state relative-caret-position="400">
           <caret line="26" column="39" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="39" />
           <folding>
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#592#593#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,8 +927,6 @@
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -943,12 +936,8 @@
         <state relative-caret-position="1075">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
-            <element signature="e#760#761#0" expanded="false" />
-            <element signature="e#791#792#0" expanded="false" />
-            <element signature="e#1048#1049#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1160,77 +1149,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="26" column="39" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#592#593#0" expanded="false" />
-            <element signature="e#640#641#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#718#719#0" expanded="false" />
-            <element signature="e#750#751#0" expanded="false" />
-            <element signature="e#796#797#0" expanded="false" />
-            <element signature="e#843#844#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#418#419#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-            <element signature="e#583#584#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#698#699#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding>
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
+        <state relative-caret-position="1625">
           <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1240,25 +1161,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input1.pas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="4" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.pas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="675">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1266,38 +1171,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
+    <entry file="file://$PROJECT_DIR$/input1.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="21" column="4" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="388">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="43" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="429" column="37" selection-start-line="429" selection-start-column="30" selection-end-line="429" selection-end-column="37" />
+        <state relative-caret-position="472">
+          <caret line="4607" column="52" selection-start-line="4607" selection-start-column="52" selection-end-line="4607" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.pas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        <state relative-caret-position="128">
+          <caret line="249" column="84" selection-start-line="249" selection-start-column="84" selection-end-line="249" selection-end-column="84" />
           <folding>
             <element signature="e#17#106#1" expanded="true" />
             <element signature="e#108#128#1" expanded="true" />
@@ -1307,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/output.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

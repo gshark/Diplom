@@ -39,6 +39,8 @@ public class StringNode implements ASTNode {
 
     @Override
     public String toString() {
+        if (child == null)
+            return "";
         return child.toString() + ";\n";
     }
 }

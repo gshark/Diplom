@@ -17,6 +17,8 @@ public class UniversalNode implements ASTNode {
         for (ASTNode ast : children)
             if (ast != null)
                 res += ast.toString();
+            else
+                res += "NULL";
         if (res.endsWith("."))
             res = res.substring(0, res.length() - 3) + ".\n";
         return res;
