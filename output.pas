@@ -7,7 +7,8 @@ begin
 end;
 function f(x : integer):integer;
 begin
-null := null;
+f := null >= null;
+a[,] := null;
 
 end;
 begin

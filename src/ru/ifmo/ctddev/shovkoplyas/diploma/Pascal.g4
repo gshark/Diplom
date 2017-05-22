@@ -327,18 +327,27 @@ assignmentStatement returns [ASTNode ast]
    ;
 
 variable returns [ASTNode ast]
-   : (AT identifier | identifier)
-        (LBRACK expression (COMMA expression)* RBRACK
+   : (AT identifier | identifier) {VarNode t = new VarNode($identifier.text);}
+        (LBRACK expression {t.ids.add($expression.ast);}(COMMA expression {t.ids.add($expression.ast);})* RBRACK
         | LBRACK2 expression (COMMA expression)* RBRACK2
         | DOT identifier
-        | POINTER)*
+        | POINTER)* {$ast = t;}
    ;
 
 expression returns [ASTNode ast]
-   : simpleExpression ((EQUAL | NOT_EQUAL | LT | LE | GE | GT | IN) simpleExpression)*
+   : simpleExpression {ASTNode t = $simpleExpression.ast; String s;}
+   ((EQUAL {s = $EQUAL.text;}
+   | NOT_EQUAL {s = $NOT_EQUAL.text;}
+   | LT {s = $LT.text;}
+   | LE {s = $LE.text;}
+   | GE {s = $GE.text;}
+   | GT {s = $GT.text;}
+   | IN {s = $IN.text;}
+   ) simpleExpression {t = new BinOp(t, $simpleExpression.ast, s);})*
+   {$ast = t;}
    ;
 
-simpleExpression
+simpleExpression returns [ASTNode ast]
    : term ((PLUS | MINUS | OR) term)*
    ;
 

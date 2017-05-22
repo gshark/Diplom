@@ -8,7 +8,9 @@ writeln('kek');
 end;
 function f(x:integer) : integer;
 begin
-    f:=x*x;
+    f:=a>=b;
+    a[i, j+1]:= k;
+
 end;
 begin
 end.
