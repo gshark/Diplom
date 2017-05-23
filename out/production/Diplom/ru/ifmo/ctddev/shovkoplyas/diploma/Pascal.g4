@@ -238,11 +238,19 @@ variableDeclarationPart returns [ASTNode ast]
 
 variableDeclaration returns [ASTNode ast]
    : identifierList COLON type {
-        List<String> idl = $identifierList.idl;
+        //List<String> idl = $identifierList.idl;
         ASTNode t = $type.ast;
-        ASTNode a = new VarNode(idl.get(0), t);
+        List<String> idl = $identifierList.idl;
+        ArrayList<ASTNode> tmp = new ArrayList<>();
+        for (String s : idl) {
+            tmp.add(new VarNode(s, t));
+        }
+        ASTNode a = new UniversalNode(tmp, "group", ",");
+
+        /*ASTNode a = new VarNode(idl.get(0), t);
         for (int i = 1; i < idl.size(); i++)
             a = new BinOp(a, new VarNode(idl.get(i), t), ",");
+        */
         $ast =  new BinOp(a, t, ":");}
    ;
 
@@ -264,7 +272,7 @@ procedureDeclaration returns [ASTNode ast, boolean flag = false]
 formalParameterList returns [ASTNode ast, ArrayList<ASTNode> list = new ArrayList()]
    : LPAREN formalParameterSection {$list.add($formalParameterSection.ast);}
    (SEMI formalParameterSection {$list.add($formalParameterSection.ast);})* RPAREN {
-        $ast = new UniversalNode($list,  "Params");
+        $ast = new UniversalNode($list,  "Params", ";");
    }
    ;
 
@@ -279,9 +287,15 @@ parameterGroup returns [ASTNode ast]
    : identifierList COLON typeIdentifier {
         ASTNode t = new TypeNode($typeIdentifier.text);
         List<String> idl = $identifierList.idl;
-        ASTNode a = new VarNode(idl.get(0), t);
+        ArrayList<ASTNode> tmp = new ArrayList<>();
+        for (String s : idl) {
+            tmp.add(new VarNode(s, t));
+        }
+        ASTNode a = new UniversalNode(tmp, "group", ",");
+        /*ASTNode a = new VarNode(idl.get(0), t);
         for (int i = 1; i < idl.size(); i++)
             a = new BinOp(a, new VarNode(idl.get(i), t), ",");
+        */
         $ast =  new BinOp(a, t, ":");
    }
    ;
@@ -348,39 +362,68 @@ expression returns [ASTNode ast]
    ;
 
 simpleExpression returns [ASTNode ast]
-   : term ((PLUS | MINUS | OR) term)*
+   : term {ASTNode t = $term.ast; String s;}
+   ((PLUS {s = $PLUS.text;}
+   | MINUS {s = $MINUS.text;}
+   | OR {s = $OR.text;}
+   ) term {t = new BinOp(t, $term.ast, s);})*
+   {$ast = t;}
    ;
 
-term
-   : signedFactor ((STAR | SLASH | DIV | MOD | AND) signedFactor)*
+term returns [ASTNode ast]
+   : signedFactor {ASTNode t = $signedFactor.ast; String s;}
+   ((STAR {s = $STAR.text;}
+   | SLASH {s = $SLASH.text;}
+   | DIV {s = $DIV.text;}
+   | MOD {s = $MOD.text;}
+   | AND {s = $AND.text;}
+   ) signedFactor {t = new BinOp(t, $signedFactor.ast, s);})*
+   {$ast = t;}
    ;
 
-signedFactor
-   : (PLUS | MINUS)? factor
+signedFactor returns [ASTNode ast]
+   : {String s = null;}
+    (PLUS {s = $PLUS.text;}
+   | MINUS {s = $MINUS.text;})? factor {
+    if (s != null) {
+        $ast = new UnOp($factor.ast, s);
+    } else {
+        $ast = $factor.ast;
+    }
+   }
    ;
 
-factor
-   : variable
-   | LPAREN expression RPAREN
-   | functionDesignator
-   | unsignedConstant
+factor returns [ASTNode ast]
+   : variable {$ast = $variable.ast;}
+   | LPAREN expression RPAREN {$ast = new BracketsNode($expression.ast);}
+   | functionDesignator {$ast = $functionDesignator.ast;}
+   | unsignedConstant {$ast = $unsignedConstant.ast;}
    | set
-   | NOT factor
+   | NOT factor {$ast = new UnOp($factor.ast, $NOT.text);}
    ;
 
-unsignedConstant
-   : unsignedNumber
+unsignedConstant returns [ASTNode ast]
+   : unsignedNumber {$ast = new ConstNode($unsignedNumber.text, "unsignedNumber");}
    | constantChr
-   | string
-   | NIL
+   | string {$ast = new ConstNode($string.text, "string");}
+   | NIL {$ast = new ConstNode($NIL.text, "NIL");}
    ;
 
-functionDesignator
-   : identifier LPAREN parameterList RPAREN
+functionDesignator returns [ASTNode ast]
+   : identifier LPAREN parameterList RPAREN {$ast =  new FunctionNode($identifier.text, $parameterList.ast);}
    ;
 
-parameterList
-   : actualParameter (COMMA actualParameter)*
+parameterList returns [ASTNode ast]
+   : actualParameter {List<ASTNode> list = new ArrayList<>();
+                      list.add($actualParameter.ast);}
+        (COMMA actualParameter {list.add($actualParameter.ast);})*
+        {
+            if (list.size() > 1) {
+                $ast = new UniversalNode(list, "params", ",");
+            } else {
+                $ast = list.get(0);
+            }
+        }
    ;
 
 set
@@ -398,11 +441,12 @@ element
    ;
 
 procedureStatement returns [ASTNode ast]
-   : identifier (LPAREN parameterList RPAREN)?
+   : identifier {boolean flag = false;}(LPAREN parameterList RPAREN {flag = true;})?
+   {$ast = new ProcedureNode($identifier.text, (flag ? $parameterList.ast : null));}
    ;
 
-actualParameter
-   : expression
+actualParameter returns [ASTNode ast]
+   : expression {$ast = $expression.ast;}
    ;
 
 gotoStatement
@@ -418,9 +462,9 @@ empty
    ;
 
 structuredStatement returns [ASTNode ast]
-   : compoundStatement
-   | conditionalStatement
-   | repetetiveStatement
+   : compoundStatement {$ast = $compoundStatement.ast;}
+   | conditionalStatement {$ast = $conditionalStatement.ast;}
+   | repetetiveStatement {$ast = $repetetiveStatement.ast;}
    | withStatement
    ;
 
@@ -432,13 +476,18 @@ statements returns [List<ASTNode> astList = new ArrayList<>()]
    : statement {$astList.add(new StringNode($statement.ast));}(SEMI statement {$astList.add(new StringNode($statement.ast));})*
    ;
 
-conditionalStatement
-   : ifStatement
+conditionalStatement returns [ASTNode ast]
+   : ifStatement {$ast = $ifStatement.ast;}
    | caseStatement
    ;
 
-ifStatement
-   : IF expression THEN statement (: ELSE statement)?
+ifStatement returns [ASTNode ast]
+   : IF expression THEN statement {
+    ASTNode ex = $expression.ast;
+    ASTNode i = $statement.ast;
+    ASTNode e = null;
+   }(: ELSE statement {e = $statement.ast;})?
+   {$ast = new IfNode(ex, i, e);}
    ;
 
 caseStatement
@@ -449,34 +498,43 @@ caseListElement
    : constList COLON statement
    ;
 
-repetetiveStatement
-   : whileStatement
-   | repeatStatement
-   | forStatement
+repetetiveStatement returns [ASTNode ast]
+   : whileStatement {$ast = $whileStatement.ast;}
+   | repeatStatement {$ast = $repeatStatement.ast;}
+   | forStatement {$ast = $forStatement.ast;}
    ;
 
-whileStatement
-   : WHILE expression DO statement
+whileStatement returns [ASTNode ast]
+   : WHILE expression DO statement {$ast = new WhileNode($expression.ast, $statement.ast);}
    ;
 
-repeatStatement
-   : REPEAT statements UNTIL expression
+repeatStatement returns [ASTNode ast]
+   : REPEAT statements UNTIL expression {
+    List<ASTNode> list = $statements.astList;
+    ASTNode s = list.get(0);
+    if (list.size() > 1) {
+        s = new UniversalNode(list, "statements");
+    }
+    $ast = new RepeatNode($expression.ast, s);}
    ;
 
-forStatement
-   : FOR identifier ASSIGN forList DO statement
+forStatement returns [ASTNode ast]
+   : FOR identifier ASSIGN forList DO statement {
+    $ast = new ForNode(new VarNode($identifier.text), $statement.ast, $forList.from, $forList.to, $forList.op);}
    ;
 
-forList
-   : initialValue (TO | DOWNTO) finalValue
+forList returns [ASTNode from, ASTNode to, String op]
+   : initialValue {$from = $initialValue.ast;}
+   (TO {$op = $TO.text;}| DOWNTO {$op = $DOWNTO.text;})
+   finalValue {$to = $finalValue.ast;}
    ;
 
-initialValue
-   : expression
+initialValue returns [ASTNode ast]
+   : expression {$ast = $expression.ast;}
    ;
 
-finalValue
-   : expression
+finalValue returns [ASTNode ast]
+   : expression {$ast = $expression.ast;}
    ;
 
 withStatement

@@ -316,14 +316,14 @@ simpleStatement returns [String code]
    ;
 
 assignmentStatement returns [String code]
-   : variable ASSIGN expression {$code = $variable.code + " := " + $expression.code;}
+   : variable ASSIGN var {$code = $variable.code + " := " + $var.code;}
    ;
 
 variable returns [String code]
-   : (AT identifier | identifier {$code = VariableChanger.change($identifier.text);}) (LBRACK expression {$code += "[" + $expression.code;} (COMMA expression {$code += ", " + $expression.code;})* RBRACK {$code += "]";}| LBRACK2 expression (COMMA expression)* RBRACK2 | DOT identifier | POINTER)*
+   : (AT identifier | identifier {$code = VariableChanger.change($identifier.text);}) (LBRACK var {$code += "[" + $var.code;} (COMMA var {$code += ", " + $var.code;})* RBRACK {$code += "]";}| LBRACK2 var (COMMA var)* RBRACK2 | DOT identifier | POINTER)*
    ;
 
-expression returns [String code]
+var returns [String code]
    : simpleExpression {$code = $simpleExpression.code;}
    (
         (EQUAL {$code += "=";} | NOT_EQUAL {$code += "<>";} | LT {$code += "<";} | LE {$code += "<=";} | GE {$code += ">=";} | GT {$code += ">";} | IN {$code += "in";})
@@ -345,7 +345,7 @@ signedFactor returns [String code = ""]
 
 factor returns [String code]
    : variable {$code = $variable.code;}
-   | LPAREN expression RPAREN {$code = $expression.code;}
+   | LPAREN var RPAREN {$code = $var.code;}
    | functionDesignator {$code = $functionDesignator.code;}
    | unsignedConstant {$code = $unsignedConstant.code;}
    | set
@@ -378,7 +378,7 @@ elementList
    ;
 
 element
-   : expression (DOTDOT expression)?
+   : var (DOTDOT var)?
    ;
 
 procedureStatement returns [String code]
@@ -386,7 +386,7 @@ procedureStatement returns [String code]
    ;
 
 actualParameter returns [String code]
-   : expression {$code = $expression.code;}
+   : var {$code = $var.code;}
    ;
 
 gotoStatement
@@ -432,7 +432,7 @@ conditionalStatement returns [String code]
    ;
 
 ifStatement returns [String code]
-   : IF expression THEN statement {$code = "if " + $expression.code + " then\n" + $statement.code + ";" + "\n"; }
+   : IF var THEN statement {$code = "if " + $var.code + " then\n" + $statement.code + ";" + "\n"; }
    (: ELSE statement {
         if ($statement.code.trim().startsWith("if")) {
             $code += " else " + $statement.code;
@@ -444,7 +444,7 @@ ifStatement returns [String code]
    ;
 
 caseStatement
-   : CASE expression OF caseListElement (SEMI caseListElement)* (SEMI ELSE statements)? END
+   : CASE var OF caseListElement (SEMI caseListElement)* (SEMI ELSE statements)? END
    ;
 
 caseListElement
@@ -458,11 +458,11 @@ repetetiveStatement returns [String code]
    ;
 
 whileStatement returns [String code]
-   : WHILE expression DO statement {$code = "while " + $expression.code + " do \n" + $statement.code + "\n";}
+   : WHILE var DO statement {$code = "while " + $var.code + " do \n" + $statement.code + "\n";}
    ;
 
 repeatStatement returns [String code]
-   : REPEAT statements UNTIL expression {$code = "repeat\n" + $statements.code + "\nuntil " + $expression.code + ";";}
+   : REPEAT statements UNTIL var {$code = "repeat\n" + $statements.code + "\nuntil " + $var.code + ";";}
    ;
 
 forStatement returns [String code]
@@ -474,11 +474,11 @@ forList returns [String code]
    ;
 
 initialValue returns [String code]
-   : expression {$code = $expression.code;}
+   : var {$code = $var.code;}
    ;
 
 finalValue returns [String code]
-   : expression {$code = $expression.code;}
+   : var {$code = $var.code;}
    ;
 
 withStatement

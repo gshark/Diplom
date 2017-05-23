@@ -3,6 +3,7 @@ package ru.ifmo.ctddev.shovkoplyas.diploma.Tree;
 import org.StructureGraphic.v1.DSTreeNode;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,12 +19,23 @@ public class FunctionNode implements ASTNode {
         this.params = params;
     }
 
+    public FunctionNode(String name, ASTNode params) {
+        this.name = name;
+        this.params = params;
+    }
+
     @Override
     public List<ASTNode> getChildren() {
-        if (params == null) {
-            return Arrays.asList(new ASTNode[]{type, block});
+        List<ASTNode> res = new ArrayList<>();
+        if (type != null)
+            res.add(type);
+        if (params != null) {
+            res.add(params);
         }
-        return Arrays.asList(new ASTNode[]{type, params, block});
+        if (block != null) {
+            res.add(block);
+        }
+        return res;
     }
 
     String name;
@@ -32,16 +44,20 @@ public class FunctionNode implements ASTNode {
 
     @Override
     public String toString() {
-        return String.format("function %s(%s):%s;\n%s", name, params.toString(), type.toString(), block.toString());
+        String p = "";
+        if (params != null)
+            p = params.toString();
 
+        if (block != null) {
+            return String.format("function %s(%s):%s;\n%s", name, p, type.toString(), block.toString());
+        }
+        return String.format("%s(%s)", name, p);
     }
 
     @Override
     public DSTreeNode[] DSgetChildren() {
-        if (params == null) {
-            return new DSTreeNode[]{type, block};
-        }
-        return new DSTreeNode[]{type, params, block};
+        List<ASTNode> list = getChildren();
+        return list.toArray(new DSTreeNode[list.size()]);
     }
 
     @Override

@@ -16,6 +16,6 @@ public class CompoundNode extends UniversalNode {
 
     @Override
     public String toString() {
-        return "begin\n" + super.toString() + "\nend";
+        return "begin\n" + super.toString() + "end";
     }
 }

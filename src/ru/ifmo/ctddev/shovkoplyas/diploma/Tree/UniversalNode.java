@@ -3,6 +3,7 @@ package ru.ifmo.ctddev.shovkoplyas.diploma.Tree;
 import org.StructureGraphic.v1.DSTreeNode;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,23 +11,55 @@ import java.util.List;
  */
 public class UniversalNode implements ASTNode {
     List<ASTNode> children;
+    boolean needSep;
+    String sep;
 
     @Override
     public String toString() {
-        String res = "";
-        for (ASTNode ast : children)
-            if (ast != null)
-                res += ast.toString();
-            else
-                res += "NULL";
-        if (res.endsWith("."))
-            res = res.substring(0, res.length() - 3) + ".\n";
-        return res;
+        boolean flag = false;
+        StringBuilder sb = new StringBuilder();
+        for (ASTNode ast : children) {
+            if (ast != null) {
+                if (ast.toString() == ".")
+                    flag = true;
+                sb.append(ast.toString());
+            } else
+                sb.append("NULL\n");
+            if (needSep) {
+                sb.append(sep);
+            }
+        }
+        if (needSep) {
+            sb.deleteCharAt(sb.length() - 1);
+        }
+        if (flag) {
+        //if (sb.length() > 0 && sb.indexOf(".") == sb.length() - 1) {
+            int id = sb.lastIndexOf("end;");
+            System.err.println(id);
+            System.err.println(sb.length());
+            sb.delete(id, sb.length()).append("end.\n");
+        }
+
+        return sb.toString();
     }
 
     public UniversalNode(List<ASTNode> children, String text) {
+        List<ASTNode> tmp = new ArrayList<>();
+        for (int i = 0; i < children.size(); i++) {
+            if (children.get(i) instanceof StringNode && ((StringNode) children.get(i)).child == null) {
+                continue;
+            }
+            tmp.add(children.get(i));
+        }
+        this.children = tmp;
+        this.text = text;
+    }
+
+    public UniversalNode(List<ASTNode> children, String text, String sep) {
         this.children = children;
         this.text = text;
+        this.needSep = true;
+        this.sep = sep;
     }
 
     String text;
