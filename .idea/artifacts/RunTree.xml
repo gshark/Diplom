@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RunTree">
+    <output-path>$PROJECT_DIR$/</output-path>
+    <root id="archive" name="RunTree.jar">
+      <element id="module-output" name="Diplom" />
+      <element id="library" level="project" name="antlr-4.7-complete" />
+      <element id="library" level="project" name="StructureGraphic" />
+    </root>
+  </artifact>
+</component>

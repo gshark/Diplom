@@ -1,71 +1,30 @@
-program tnp;
 var
-n,m,i,j,k,left,right,middle : longint;
-a : array[0..10001] of longint;
-max : array[0..5001,0..5001] of longint;
-virus : array[0..5001] of boolean;
-function f(k : longint):boolean;
-var
-i,left,right : longint;
+a : array[0..100] of integer;
+i,n,j,m : integer;
+st,s : string;
 begin
-fillchar(virus,sizeof(virus),false);
-virus[1] := true;
-left := 2;
-for i := 1 to n do
-begin
-if virus[i] = false then
-begin
-f := false;
-exit;
-end;
-;
-if left = n + 1 then
-continue;
-right := left + k - 1;
-if right > n then
-right := n;
-if max[left,right] <= a[i] then
-begin
-for j := left to right do
-virus[j] := true;
-left := right + 1;
-end;
-
-else
-begin
-f := false;
-exit;
-end;
-;
-end;
-;
-f := true;
-end;
-begin
-assign(input,'viruses.in');
-reset(input);
-assign(output,'viruses.out');
-rewrite(output);
 readln(n);
-for i := 1 to n do
-read(a[i]);
+for i := 0 to 100 do
+a[i] := 0;
 for i := 1 to n do
 begin
-max[i,i] := a[i];
-for j := i + 1 to n do
-if a[j] > max[i,j - 1] then
-max[i,j] := a[j]
-else
-max[i,j] := max[i,j - 1];
+read(j);
+inc(a[j]);
 end;
-;
-for i := 1 to 5000 do
-if f(i) then
+m := 0;
+st := '';
+for i := 0 to n do
+if a[i] <> 0 then
+inc(m);
+j := 0;
+for i := 0 to n do
+if i = n - a[i] then
 begin
-writeln(i);
-halt;
+inc(j);
+str(i,s);
+st := concat(st,s,' ');
 end;
-;
-writeln(0);
+writeln(j);
+write(st);
 end.
 

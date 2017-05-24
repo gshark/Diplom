@@ -23,8 +23,8 @@ public class UniversalNode implements ASTNode {
                 if (ast.toString() == ".")
                     flag = true;
                 sb.append(ast.toString());
-            } else
-                sb.append("NULL\n");
+            } /*else
+                sb.append("NULL\n");*/
             if (needSep) {
                 sb.append(sep);
             }
@@ -35,8 +35,8 @@ public class UniversalNode implements ASTNode {
         if (flag) {
         //if (sb.length() > 0 && sb.indexOf(".") == sb.length() - 1) {
             int id = sb.lastIndexOf("end;");
-            System.err.println(id);
-            System.err.println(sb.length());
+            //System.err.println(id);
+            //System.err.println(sb.length());
             sb.delete(id, sb.length()).append("end.\n");
         }
 

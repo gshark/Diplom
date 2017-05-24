@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: ru.ifmo.ctddev.shovkoplyas.diploma -classpath antlr-4.7-co
+ mplete.jar StructureGraphic.jar
+Main-Class: ru.ifmo.ctddev.shovkoplyas.diploma.RunTree
+

@@ -11,12 +11,20 @@ import java.util.List;
  * Created by shovkoplyas on 05.05.2017.
  */
 public class VarNode implements ASTNode {
-    public VarNode(String text) {
-        this.text = text;
+    public VarNode(String name) {
+        this.name = name;
     }
 
-    public VarNode(String text, ASTNode type) {
-        this.text = text;
+    public ASTNode getType() {
+        return type;
+    }
+
+    public void setType(ASTNode type) {
+        this.type = type;
+    }
+
+    public VarNode(String name, ASTNode type) {
+        this.name = name;
         this.type = type;
     }
 
@@ -29,14 +37,14 @@ public class VarNode implements ASTNode {
         return Arrays.asList(new ASTNode[]{type, tmp});
     }
 
-    String text;
+    String name;
     ASTNode type;
     public List<ASTNode> ids = new ArrayList<>();
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(text);
+        sb.append(name);
         if (!ids.isEmpty()) {
             sb.append("[");
             for (ASTNode a : ids) {
@@ -61,7 +69,7 @@ public class VarNode implements ASTNode {
 
     @Override
     public Object DSgetValue() {
-        return text;
+        return name;
     }
 
     @Override

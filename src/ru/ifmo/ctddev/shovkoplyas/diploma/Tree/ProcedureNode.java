@@ -46,7 +46,10 @@ public class ProcedureNode implements ASTNode {
         if (block != null) {
             return String.format("procedure %s(%s);\n%s", name, p, block.toString());
         }
-        return String.format("%s(%s)", name, p);
+        if (params != null) {
+            return String.format("%s(%s)", name, p);
+        }
+        return name;
     }
 
     @Override

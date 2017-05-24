@@ -3,6 +3,7 @@ package ru.ifmo.ctddev.shovkoplyas.diploma.Tree;
 import org.StructureGraphic.v1.DSTreeNode;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,7 +14,16 @@ public class TypeNode implements ASTNode {
 
     @Override
     public List<ASTNode> getChildren() {
-        return null;
+        List<ASTNode> res = new ArrayList<>();
+        if (leftBound != null)
+            res.add(leftBound);
+        if (rightBound != null)
+            res.add(rightBound);
+        if (children != null)
+            res.addAll(children);
+        if (ofWhat != null)
+            res.add(ofWhat);
+        return res;
     }
 
     String text;

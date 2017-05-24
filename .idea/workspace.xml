@@ -1,76 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RunTree" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0130a685-3af5-4c04-9ed0-5cd9e8e2a715" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BracketsNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ForNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/IfNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/RepeatNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UnOp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/WhileNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ActualParameterContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ActualParameterContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$AssignmentStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$AssignmentStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseListElementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseListElementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CaseStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CompoundStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$CompoundStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConditionalStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConditionalStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ConstListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ElementListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$EmptyStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FactorContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FactorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FinalValueContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FinalValueContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ForStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterSectionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FormalParameterSectionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDesignatorContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$FunctionDesignatorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$GotoStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$GotoStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IdentifierListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IdentifierListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IfStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$IfStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$InitialValueContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$InitialValueContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterGroupContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterGroupContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ParameterListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureAndFunctionDeclarationPartContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureAndFunctionDeclarationPartContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureOrFunctionDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureOrFunctionDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ProcedureStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordVariableListContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RecordVariableListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepeatStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepeatStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepetetiveStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$RepetetiveStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ResultTypeContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$ResultTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SetContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignedFactorContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SignedFactorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$SimpleStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementsContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StatementsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$StructuredStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TermContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$TermContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnlabelledStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnlabelledStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedConstantContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$UnsignedConstantContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$VariableContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WhileStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WhileStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WithStatementContext.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser$WithStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/RunTree.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Pusher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.class" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.exe" afterPath="$PROJECT_DIR$/output.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input.pas" afterPath="$PROJECT_DIR$/input.pas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4" afterPath="$PROJECT_DIR$/out/production/Diplom/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output.pas" afterPath="$PROJECT_DIR$/output.pas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TextNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TextNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java" afterPath="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java" />
     </list>
     <ignored path="Diplom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,26 +40,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="Pascal_old.g4" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="529">
-                    <caret line="464" column="22" selection-start-line="464" selection-start-column="12" selection-end-line="464" selection-end-column="22" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Diplom" />
@@ -115,65 +49,34 @@
       <file leaf-file-name="Pascal.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="527" column="35" selection-start-line="527" selection-start-column="35" selection-end-line="527" selection-end-column="35" />
-              <folding>
-                <element signature="e#17#106#1" expanded="true" />
-                <element signature="e#108#128#1" expanded="true" />
-                <marker date="1495556372087" expanded="true" signature="13833:14109" placeholder=":...;" />
-                <marker date="1495556372087" expanded="true" signature="14123:14313" placeholder=":...;" />
-                <marker date="1495556372087" expanded="true" signature="14322:14515" placeholder=":...;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepeatNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/RepeatNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ForNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1254#1255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UniversalNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="310">
+              <caret line="344" column="33" selection-start-line="344" selection-start-column="33" selection-end-line="344" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="e#2067#2068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,21 +84,26 @@
       <file leaf-file-name="VarNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="-25">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="output.pas" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/output.pas">
+      <file leaf-file-name="Pusher.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Pusher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="338">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,22 +118,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnOp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UnOp.java">
+      <file leaf-file-name="BinOp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java">
+      <file leaf-file-name="BracketsNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BracketsNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="663">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-              <folding />
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -239,6 +149,16 @@
                 <element signature="e#400#401#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -268,33 +188,35 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Main.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Node.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalLexer.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TextNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/OneChildNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/OCNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ASTNode.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java" />
         <option value="$PROJECT_DIR$/input1.pas" />
         <option value="$PROJECT_DIR$/src/input.pas" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/StringNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UnOp.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BracketsNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/FunctionNode.java" />
         <option value="$PROJECT_DIR$/input.pas" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java" />
-        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/IfNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/WhileNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ForNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/RepeatNode.java" />
-        <option value="$PROJECT_DIR$/output.pas" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java" />
+        <option value="$PROJECT_DIR$/output.pas" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Utils.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TextNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java" />
+        <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Pusher.java" />
       </list>
     </option>
   </component>
@@ -443,6 +365,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Diplom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -475,9 +411,9 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4::/auto-gen" value="false" />
@@ -798,7 +734,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,7 +745,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -820,7 +756,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39845476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -841,15 +777,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -858,22 +786,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/output.pas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -886,13 +798,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#17#106#1" expanded="true" />
-            <element signature="e#108#128#1" expanded="true" />
-            <marker date="1495556372087" expanded="true" signature="13833:14109" placeholder=":...;" />
-            <marker date="1495556372087" expanded="true" signature="14123:14313" placeholder=":...;" />
-            <marker date="1495556372087" expanded="true" signature="14322:14515" placeholder=":...;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,9 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,13 +858,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#17#106#1" expanded="true" />
-            <element signature="e#108#128#1" expanded="true" />
-            <marker date="1495556372087" expanded="true" signature="13833:14109" placeholder=":...;" />
-            <marker date="1495556372087" expanded="true" signature="14123:14313" placeholder=":...;" />
-            <marker date="1495556372087" expanded="true" signature="14322:14515" placeholder=":...;" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/Pascal.tokens">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1050,47 +941,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TextNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/input1.pas">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="4" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BracketsNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,49 +963,6 @@
           <caret line="52" column="9" selection-start-line="46" selection-start-column="8" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#418#419#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="73" column="8" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1717#1718#0" expanded="false" />
-            <element signature="e#1744#1745#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1187,43 +999,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="464" column="22" selection-start-line="464" selection-start-column="12" selection-end-line="464" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/ANTLR/PascalParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="5318" column="84" selection-start-line="5318" selection-start-column="84" selection-end-line="5318" selection-end-column="84" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="527" column="35" selection-start-line="527" selection-start-column="35" selection-end-line="527" selection-end-column="35" />
-          <folding>
-            <element signature="e#17#106#1" expanded="true" />
-            <element signature="e#108#128#1" expanded="true" />
-            <marker date="1495556372087" expanded="true" signature="13833:14109" placeholder=":...;" />
-            <marker date="1495556372087" expanded="true" signature="14123:14313" placeholder=":...;" />
-            <marker date="1495556372087" expanded="true" signature="14322:14515" placeholder=":...;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,17 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UnOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1268,14 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ASTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1298,19 +1059,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ProcedureNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="413">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.pas">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal_old.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="464" column="22" selection-start-line="464" selection-start-column="12" selection-end-line="464" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/RunTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TextNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/UniversalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/TypeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2067#2068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ASTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BinOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/BracketsNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/CompoundNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/ConstNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Pascal.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="344" column="33" selection-start-line="344" selection-start-column="33" selection-end-line="344" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/VarNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/Tree/Pusher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1319,11 +1232,18 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="library" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>RunTree</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
