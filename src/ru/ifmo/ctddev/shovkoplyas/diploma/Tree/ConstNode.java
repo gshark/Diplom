@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 05.05.2017.
  */
-public class ConstNode implements ASTNode {
+public class ConstNode extends ASTNode {
     public ConstNode(String text, String type) {
         this.text = text;
         this.type = type;
@@ -18,6 +18,28 @@ public class ConstNode implements ASTNode {
     @Override
     public List<ASTNode> getChildren() {
         return new ArrayList<>();
+    }
+
+    @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ConstNode constNode = (ConstNode) o;
+
+        return type.equals(constNode.type);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        ConstNode constNode = (ConstNode) o;
+
+        if (text != null ? !text.equals(constNode.text) : constNode.text != null) return false;
+        return type != null ? type.equals(constNode.type) : constNode.type == null;
+
     }
 
     String text;

@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 19.05.2017.
  */
-public class FunctionNode implements ASTNode {
+public class FunctionNode extends ASTNode {
 
     public FunctionNode(String name, TypeNode type, ASTNode params, ASTNode block) {
         this.name = name;
@@ -37,6 +37,7 @@ public class FunctionNode implements ASTNode {
         }
         return res;
     }
+
 
     String name;
     ASTNode params, block;

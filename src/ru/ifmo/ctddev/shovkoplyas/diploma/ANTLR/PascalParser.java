@@ -2560,7 +2560,7 @@ public class PascalParser extends Parser {
 			((VariableDeclarationContext)_localctx).type = type();
 
 			        //List<String> idl = ((VariableDeclarationContext)_localctx).identifierList.idl;
-			        ASTNode t = ((VariableDeclarationContext)_localctx).type.ast;
+			        TypeNode t = (TypeNode) ((VariableDeclarationContext)_localctx).type.ast;
 			        List<String> idl = ((VariableDeclarationContext)_localctx).identifierList.idl;
 			        ArrayList<ASTNode> tmp = new ArrayList<>();
 			        for (String s : idl) {
@@ -2914,7 +2914,7 @@ public class PascalParser extends Parser {
 			setState(563);
 			((ParameterGroupContext)_localctx).typeIdentifier = typeIdentifier();
 
-			        ASTNode t = new TypeNode((((ParameterGroupContext)_localctx).typeIdentifier!=null?_input.getText(((ParameterGroupContext)_localctx).typeIdentifier.start,((ParameterGroupContext)_localctx).typeIdentifier.stop):null));
+			        TypeNode t = new TypeNode((((ParameterGroupContext)_localctx).typeIdentifier!=null?_input.getText(((ParameterGroupContext)_localctx).typeIdentifier.start,((ParameterGroupContext)_localctx).typeIdentifier.stop):null));
 			        List<String> idl = ((ParameterGroupContext)_localctx).identifierList.idl;
 			        ArrayList<ASTNode> tmp = new ArrayList<>();
 			        for (String s : idl) {

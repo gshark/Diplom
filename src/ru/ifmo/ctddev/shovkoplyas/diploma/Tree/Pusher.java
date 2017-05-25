@@ -7,7 +7,7 @@ import java.util.HashMap;
  */
 public class Pusher {
     ASTNode root;
-    final HashMap<String, ASTNode> types;
+    final HashMap<String, TypeNode> types;
 
     public Pusher(ASTNode root) {
         this.root = root;

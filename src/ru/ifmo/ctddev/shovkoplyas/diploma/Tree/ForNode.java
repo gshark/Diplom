@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 23.05.2017.
  */
-public class ForNode implements ASTNode {
+public class ForNode extends ASTNode {
     ASTNode var, statement, from, to;
     String op;
 
@@ -24,6 +24,18 @@ public class ForNode implements ASTNode {
     @Override
     public List<ASTNode> getChildren() {
         return Arrays.asList(new ASTNode[]{var, from, to, statement});
+    }
+
+    @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ForNode fn = (ForNode) o;
+        return fn.var.lookLike(var)
+                && fn.statement.lookLike(statement)
+                && fn.from.lookLike(from)
+                && fn.to.lookLike(to)
+                && fn.op.equals(op);
     }
 
     @Override

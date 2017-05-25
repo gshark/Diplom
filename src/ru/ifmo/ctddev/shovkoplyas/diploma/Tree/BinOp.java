@@ -34,4 +34,15 @@ public class BinOp extends UniversalNode {
             sb.append("null");
         return sb.toString();
     }
+
+    @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        BinOp bo = (BinOp) o;
+        return bo.text.equals(text)
+                && ((bo.left.lookLike(this.left) && bo.right.lookLike(this.right))
+                || (bo.left.lookLike(this.right) && bo.right.lookLike(this.left)));
+
+    }
 }

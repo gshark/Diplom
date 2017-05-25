@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 05.05.2017.
  */
-public class TypeNode implements ASTNode {
+public class TypeNode extends ASTNode {
 
 
     @Override
@@ -25,6 +25,49 @@ public class TypeNode implements ASTNode {
             res.add(ofWhat);
         return res;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        TypeNode typeNode = (TypeNode) o;
+
+        if (isArray != typeNode.isArray) return false;
+        if (isRange != typeNode.isRange) return false;
+        if (text != null ? !text.equals(typeNode.text) : typeNode.text != null) return false;
+        if (leftBound != null ? !leftBound.equals(typeNode.leftBound) : typeNode.leftBound != null) return false;
+        if (rightBound != null ? !rightBound.equals(typeNode.rightBound) : typeNode.rightBound != null) return false;
+        if (children != null ? !children.equals(typeNode.children) : typeNode.children != null) return false;
+        return ofWhat != null ? ofWhat.equals(typeNode.ofWhat) : typeNode.ofWhat == null;
+
+    }
+
+    @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        TypeNode typeNode = (TypeNode) o;
+        if (isArray) {
+            if (!typeNode.isArray) return false;
+            if (children.size() != typeNode.children.size()) return false;
+            for (int i = 0; i < children.size(); i++) {
+                if (!children.get(i).lookLike(typeNode.children.get(i))) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if (isRange) {
+            if (!typeNode.isRange) return false;
+            return leftBound.lookLike(typeNode.leftBound) && rightBound.lookLike(typeNode.rightBound);
+
+        }
+        return text.equals(typeNode.text);
+
+    }
+
 
     String text;
     boolean isArray;

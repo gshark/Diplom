@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 04.05.2017.
  */
-public class TextNode implements ASTNode {
+public class TextNode extends ASTNode {
     public TextNode(String text) {
         this.text = text;
     }
@@ -17,6 +17,22 @@ public class TextNode implements ASTNode {
     @Override
     public List<ASTNode> getChildren() {
         return new ArrayList<>();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        TextNode textNode = (TextNode) o;
+
+        return text != null ? text.equals(textNode.text) : textNode.text == null;
+
+    }
+
+    @Override
+    public boolean lookLike(ASTNode o) {
+        return equals(o);
     }
 
     String text;

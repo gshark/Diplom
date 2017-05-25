@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 23.05.2017.
  */
-public class BracketsNode implements ASTNode {
+public class BracketsNode extends ASTNode {
     public BracketsNode(ASTNode child) {
         this.child = child;
     }

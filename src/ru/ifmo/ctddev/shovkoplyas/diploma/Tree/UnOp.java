@@ -16,6 +16,15 @@ public class UnOp extends UniversalNode {
     }
 
     @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        UnOp uo = (UnOp) o;
+        return uo.once.lookLike(once) && uo.text.equals(text);
+    }
+
+
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(text);

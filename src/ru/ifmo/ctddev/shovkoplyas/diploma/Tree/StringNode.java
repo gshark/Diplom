@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 04.05.2017.
  */
-public class StringNode implements ASTNode {
+public class StringNode extends ASTNode {
     public StringNode(ASTNode child) {
         this.child = child;
     }
@@ -21,6 +21,7 @@ public class StringNode implements ASTNode {
     public List<ASTNode> getChildren() {
         return Arrays.asList(new ASTNode[]{child});
     }
+
 
     @Override
     public DSTreeNode[] DSgetChildren() {

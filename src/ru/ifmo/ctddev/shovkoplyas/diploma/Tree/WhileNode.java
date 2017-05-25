@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 23.05.2017.
  */
-public class WhileNode implements ASTNode {
+public class WhileNode extends ASTNode {
     ASTNode expression, statement;
 
     public WhileNode(ASTNode expression, ASTNode statement) {

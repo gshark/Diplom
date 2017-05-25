@@ -239,7 +239,7 @@ variableDeclarationPart returns [ASTNode ast]
 variableDeclaration returns [ASTNode ast]
    : identifierList COLON type {
         //List<String> idl = $identifierList.idl;
-        ASTNode t = $type.ast;
+        TypeNode t = (TypeNode) $type.ast;
         List<String> idl = $identifierList.idl;
         ArrayList<ASTNode> tmp = new ArrayList<>();
         for (String s : idl) {
@@ -285,7 +285,7 @@ formalParameterSection returns [ASTNode ast]
 
 parameterGroup returns [ASTNode ast]
    : identifierList COLON typeIdentifier {
-        ASTNode t = new TypeNode($typeIdentifier.text);
+        TypeNode t = new TypeNode($typeIdentifier.text);
         List<String> idl = $identifierList.idl;
         ArrayList<ASTNode> tmp = new ArrayList<>();
         for (String s : idl) {

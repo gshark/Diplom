@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 04.05.2017.
  */
-public class UniversalNode implements ASTNode {
+public class UniversalNode extends ASTNode {
     List<ASTNode> children;
     boolean needSep;
     String sep;
@@ -33,7 +33,7 @@ public class UniversalNode implements ASTNode {
             sb.deleteCharAt(sb.length() - 1);
         }
         if (flag) {
-        //if (sb.length() > 0 && sb.indexOf(".") == sb.length() - 1) {
+            //if (sb.length() > 0 && sb.indexOf(".") == sb.length() - 1) {
             int id = sb.lastIndexOf("end;");
             //System.err.println(id);
             //System.err.println(sb.length());
@@ -67,6 +67,21 @@ public class UniversalNode implements ASTNode {
     @Override
     public List<ASTNode> getChildren() {
         return children;
+    }
+
+    @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        List<ASTNode> l1 = getChildren();
+        List<ASTNode> l2 = o.getChildren();
+        if (l1.size() != l2.size()) return false;
+        for (int i = 0; i < l1.size(); i++) {
+            if (!l1.get(i).lookLike(l2.get(i))) {
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override

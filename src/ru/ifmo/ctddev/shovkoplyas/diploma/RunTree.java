@@ -52,14 +52,39 @@ public class RunTree {
             new Pusher(ast).push();
             //String res = result.s;
             //System.err.println(res);
-            //if (needPic) {
+            if (needPic) {
                 DSutils.show(ast, 100, 20);
-            //}
+            }
+            dfs(ast, ast, 0, 0);
             try (PrintWriter out = new PrintWriter(output)) {
                 out.println(optimize(ast.toString()));
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    static int cnt = 0;
+    private static void dfs(ASTNode v, ASTNode u, int l1, int l2) {
+        if (cnt++ % 1_000_000 == 0) {
+            System.out.println(l1 + " " + l2);
+        }
+        if (v == null)
+            return;
+        if (u == null)
+            return;
+        if (v.equals(v) && !v.lookLike(v))
+            System.err.println("fuck!!!");
+        if (!v.equals(v) && v.lookLike(v)) {
+            DSutils.show(v, 100, 20);
+            DSutils.show(u, 100, 20);
+        }
+        for (ASTNode child : v.getChildren()) {
+            dfs(child, u, l1 + 1, l2);
+        }
+        for (ASTNode child : u.getChildren()) {
+            dfs(v, child, l1, l2 + 1);
+        }
+
     }
 }

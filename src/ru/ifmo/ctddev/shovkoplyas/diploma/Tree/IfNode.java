@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 23.05.2017.
  */
-public class IfNode implements ASTNode {
+public class IfNode extends ASTNode {
     ASTNode expression, ifCase, elseCase;
 
     public IfNode(ASTNode expression, ASTNode ifCase, ASTNode elseCase) {

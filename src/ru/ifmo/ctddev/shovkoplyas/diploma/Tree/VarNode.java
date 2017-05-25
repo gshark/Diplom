@@ -10,20 +10,20 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 05.05.2017.
  */
-public class VarNode implements ASTNode {
+public class VarNode extends ASTNode {
     public VarNode(String name) {
         this.name = name;
     }
 
-    public ASTNode getType() {
+    public TypeNode getType() {
         return type;
     }
 
-    public void setType(ASTNode type) {
+    public void setType(TypeNode type) {
         this.type = type;
     }
 
-    public VarNode(String name, ASTNode type) {
+    public VarNode(String name, TypeNode type) {
         this.name = name;
         this.type = type;
     }
@@ -37,8 +37,49 @@ public class VarNode implements ASTNode {
         return Arrays.asList(new ASTNode[]{type, tmp});
     }
 
+    @Override
+    public boolean lookLike(ASTNode o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        VarNode varNode = (VarNode) o;
+
+        if (type != null ? !type.lookLike(varNode.type) : varNode.type != null) return false;
+        List<ASTNode> oids = varNode.ids;
+        if (ids == null) return oids == null;
+        if (ids.size() != oids.size()) return false;
+        for (int i = 0; i < ids.size(); i++) {
+            if (!ids.get(i).lookLike(oids.get(i))) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        VarNode varNode = (VarNode) o;
+
+        if (name != null ? !name.equals(varNode.name) : varNode.name != null) return false;
+        if (type != null ? !type.equals(varNode.type) : varNode.type != null) return false;
+        List<ASTNode> oids = varNode.ids;
+        if (ids == null) return oids == null;
+        if (ids.size() != oids.size()) return false;
+        for (int i = 0; i < ids.size(); i++) {
+            if (!ids.get(i).equals(oids.get(i))) {
+                return false;
+            }
+        }
+        return true;
+
+    }
+
+
     String name;
-    ASTNode type;
+    TypeNode type;
     public List<ASTNode> ids = new ArrayList<>();
 
     @Override

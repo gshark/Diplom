@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 17.05.2017.
  */
-public class ProcedureNode implements ASTNode {
+public class ProcedureNode extends ASTNode {
     public ProcedureNode(String name, ASTNode params, ASTNode block) {
         this.name = name;
         this.block = block;

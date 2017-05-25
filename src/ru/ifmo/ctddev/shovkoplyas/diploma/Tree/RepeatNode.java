@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by shovkoplyas on 23.05.2017.
  */
-public class RepeatNode implements ASTNode {
+public class RepeatNode extends ASTNode {
     ASTNode expression, statement;
 
     public RepeatNode(ASTNode expression, ASTNode statement) {
@@ -21,6 +21,7 @@ public class RepeatNode implements ASTNode {
     public List<ASTNode> getChildren() {
         return Arrays.asList(new ASTNode[]{expression, statement});
     }
+
 
     @Override
     public DSTreeNode[] DSgetChildren() {
