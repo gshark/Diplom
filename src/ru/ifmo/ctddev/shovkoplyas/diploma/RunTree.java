@@ -56,6 +56,7 @@ public class RunTree {
                 DSutils.show(ast, 100, 20);
             }
             dfs(ast, ast, 0, 0);
+            System.out.println(cnt);
             try (PrintWriter out = new PrintWriter(output)) {
                 out.println(optimize(ast.toString()));
             }
