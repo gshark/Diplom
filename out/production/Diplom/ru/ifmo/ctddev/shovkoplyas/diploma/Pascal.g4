@@ -520,13 +520,13 @@ repeatStatement returns [ASTNode ast]
 
 forStatement returns [ASTNode ast]
    : FOR identifier ASSIGN forList DO statement {
-    $ast = new ForNode(new VarNode($identifier.text), $statement.ast, $forList.from, $forList.to, $forList.op);}
+    $ast = new ForNode(new VarNode($identifier.text), $statement.ast, $forList.before, $forList.after, $forList.op);}
    ;
 
-forList returns [ASTNode from, ASTNode to, String op]
-   : initialValue {$from = $initialValue.ast;}
+forList returns [ASTNode before, ASTNode after, String op]
+   : initialValue {$before = $initialValue.ast;}
    (TO {$op = $TO.text;}| DOWNTO {$op = $DOWNTO.text;})
-   finalValue {$to = $finalValue.ast;}
+   finalValue {$after = $finalValue.ast;}
    ;
 
 initialValue returns [ASTNode ast]

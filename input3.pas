@@ -6,7 +6,7 @@ begin
         writeln('yes')
     else
         writeln('no');
-    for i := 1 to a do
+    for i := 1 after a do
     begin
         writeln(i);
     end;

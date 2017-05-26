@@ -470,7 +470,7 @@ forStatement returns [String code]
    ;
 
 forList returns [String code]
-   : initialValue {$code = $initialValue.code;}(TO {$code += " to ";}| DOWNTO {$code += " downto ";}) finalValue {$code += $finalValue.code;}
+   : initialValue {$code = $initialValue.code;}(TO {$code += " after ";}| DOWNTO {$code += " downto ";}) finalValue {$code += $finalValue.code;}
    ;
 
 initialValue returns [String code]

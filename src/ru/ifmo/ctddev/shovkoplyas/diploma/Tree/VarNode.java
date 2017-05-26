@@ -19,6 +19,10 @@ public class VarNode extends ASTNode {
         return type;
     }
 
+    public boolean hasIndexes() {
+        return !ids.isEmpty();
+    }
+
     public void setType(TypeNode type) {
         this.type = type;
     }
