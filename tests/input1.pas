@@ -4,8 +4,8 @@ var a : array [0..100] of integer;
 
 BEGIN
     readln(n);
-    for i := 0 to 5 do
-        a[i] := 0;
+    for i := 0 to 100 do
+        a[i - 1] := 0;
     for i := 1 to n do
     begin
         read(j);

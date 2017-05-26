@@ -25,8 +25,8 @@ import static ru.ifmo.ctddev.shovkoplyas.diploma.Tree.Utils.optimize;
 public class RunTree {
     public static void main(String[] args) {
         boolean needPic = false;
-        String input = "input.pas";
-        String output = "output.pas";
+        String input = "tests/input.pas";
+        String output = "tests/output.pas";
         if (args.length > 0) {
             int k = 0;
             if (args[0].equals("-p")) {

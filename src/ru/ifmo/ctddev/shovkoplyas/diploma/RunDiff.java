@@ -24,8 +24,8 @@ import static ru.ifmo.ctddev.shovkoplyas.diploma.Tree.Utils.optimize;
 public class RunDiff {
     public static void main(String[] args) {
         boolean needPic = true;
-        String input1 = "input1.pas";
-        String input2 = "input2.pas";
+        String input1 = "tests/input1.pas";
+        String input2 = "tests/input2.pas";
         if (args.length > 0) {
             int k = 0;
             if (args[0].equals("-p")) {
