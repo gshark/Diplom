@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.1)  1 JUN 2017 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.6.1)  2 JUN 2017 18:52
 entering extended mode
 **./bachelor-thesis.tex
 (bachelor-thesis.tex
@@ -1904,25 +1904,13 @@ Underfull \hbox (badness 2846) in paragraph at lines 60--63
 -нов(слов) фор-маль-но-го
  []
 
-[7]
-Underfull \hbox (badness 2158) in paragraph at lines 82--85
-[]\T2A/PTSerif-TLF/b/n/14.4 Идейные\T2A/PTSerif-TLF/m/n/14.4 . Дан-ные ошиб-ки 
-со-вер-ше-ны по при-чине на-пи-са-ния
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 105--109
-[]\T2A/PTSerif-TLF/m/n/14.4 Ошибки, не яв-ля-ю-ще-е-ся <<мел-ки-ми>>, лег-ко на
-й-ти, по-то-му что
- []
-
-[8])
+[7] [8] [9] [10])
 
 LaTeX Warning: Empty bibliography on input line 162.
 
 
 AED: lastpage setting LastPage
-[9] (bachelor-thesis.aux)
+[11] (bachelor-thesis.aux)
 Package logreq Info: Writing requests to 'bachelor-thesis.run.xml'.
 \openout1 = `bachelor-thesis.run.xml'.
 
@@ -1934,11 +1922,11 @@ Package logreq Info: Writing requests to 'bachelor-thesis.run.xml'.
 Here is how much of TeX's memory you used:
  28126 strings out of 493328
  510498 string characters out of 3139122
- 1234008 words of memory out of 3000000
+ 1234010 words of memory out of 3000000
  31096 multiletter control sequences out of 15000+200000
  38515 words of font info for 56 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 55i,14n,54p,807b,19716s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,14n,54p,807b,19724s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/paratype/ptserif_t
 2a.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/paratype/ptserif/PTF55F.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/paratype/ptserif/PTF75F.pfb><C:/Program F
@@ -1947,9 +1935,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb>
-Output written on bachelor-thesis.pdf (12 pages, 125419 bytes).
+Output written on bachelor-thesis.pdf (14 pages, 131282 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
