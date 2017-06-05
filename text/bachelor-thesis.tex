@@ -18,39 +18,6 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows}
 \usepackage{filecontents}
-\begin{filecontents}{bachelor-thesis.bib}
-@inproceedings{ example-english,
-    year        = {2015},
-    booktitle   = {Proceedings of IEEE Congress on Evolutionary Computation},
-    author      = {Maxim Buzdalov and Anatoly Shalyto},
-    title       = {Hard Test Generation for Augmenting Path Maximum Flow 
-                   Algorithms using Genetic Algorithms: Revisited},
-    pages       = {2121-2128},
-    langid      = {english}
-}
-
-@article{ example-russian,
-    author      = {Максим Викторович Буздалов},
-    title       = {Генерация тестов для олимпиадных задач по программированию 
-                   с использованием генетических алгоритмов},
-    journal     = {Научно-технический вестник {СПбГУ} {ИТМО}},
-    number      = {2(72)},
-    year        = {2011},
-    pages       = {72-77},
-    langid      = {russian}
-}
-
-@article{ unrestricted-jump-evco,
-    author      = {Maxim Buzdalov and Benjamin Doerr and Mikhail Kever},
-    title       = {The Unrestricted Black-Box Complexity of Jump Functions},
-    journal     = {Evolutionary Computation},
-    year        = {2016},
-    note        = {Accepted for publication},
-    langid      = {english},
-    keywords    = {index:wos, index:scopus, labauthor:buzdalov}
-}
-\end{filecontents}
-%% Конец
 
 %% Указываем файл с библиографией.
 \addbibresource{bachelor-thesis.bib}
@@ -150,14 +117,26 @@ FAR manager для написания кода на Python.}
 в рамках одной тестирующей системы хранится архив всех попыток сдач. 
 Данную информацию как раз и хочется использовать, для повышения эффективности преподавания.
 
-В данной статье будет рассмотрен способ синтеза исправлений для решения учащегося. Это поможет в некоторой
+В данной работе будет рассмотрен способ синтеза исправлений для решения учащегося. Это поможет в некоторой
 степени автоматизировать процесс обучения, а следовательно снять не самую полезную нагрузку с преподавателя.
-Ведь, если в случае с локальным кружком на одного преподавателя приходится не более двадцати учащихся, существуют
-онлайн-курсы, в которых количество учащихся в разы больше.
+Ведь, если в случае с локальным кружком на одного преподавателя приходится не более двадцати учащихся, но существуют
+онлайн-курсы, в которых количество учащихся в разы больше. На заочном кружке Петра Калинина в год написания работы
+обучалось $150$ человек на одного преподавателя. Но эти цифры меркнут на фоне количества учащихся на онлайн-курсе 
+Максима Буздалова <<I2CPx>> за предыдущие два года суммарно достигло $60\,000$ человек. При этом, даже на 
+такое огромное количество человек приходится всего один преподаватель.
+
+В \textbf{первой} главе вводятся основные определения и термины, используемые в работе и необходимые
+для понимания других определений и терминов. Также формулируется цель исследования, на основе которой
+приводится обзор работ из смежных областей, после чего окончательно формулируется задача исследования.
+
+В \textbf{второй} главе ...
+
+В \textbf{третьей} главе ...
 
 
 %% Начало содержательной части.
 \input{chapters/chapter1.tex}
+\input{chapters/chapter2.tex}
 
 \printmainbibliography
 
