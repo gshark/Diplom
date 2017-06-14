@@ -1,0 +1,2819 @@
+Storage root: O:\core\local\shovkoplyas\runs.mun.pascal.free.IOIfied
+Job ru.olymp.spb.municipal.2016.main.spb-ptd-009.B.1.75149 exported to 086/301/1804/ru.olymp.spb.municipal.2016.main.spb-ptd-009.B.1.75149
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-ptd-009
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-082.A.1.75152 exported to 212/090/6332/ru.olymp.spb.municipal.2016.main.spb-krg-082.A.1.75152
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-082
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'ProgramA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-038.A.2.75171 exported to 095/554/3386/ru.olymp.spb.municipal.2016.main.spb-kln-038.A.2.75171
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-038
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'nomer1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pts-031.C.1.75473 exported to 207/195/8107/ru.olymp.spb.municipal.2016.main.spb-pts-031.C.1.75473
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-pts-031
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'District.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pts-014.A.10.75551 exported to 160/247/4213/ru.olymp.spb.municipal.2016.main.spb-pts-014.A.10.75551
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pts-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'zadacha_A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-ptd-009.A.1.75564 exported to 162/449/7128/ru.olymp.spb.municipal.2016.main.spb-ptd-009.A.1.75564
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-ptd-009
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pts-014.A.11.75570 exported to 071/497/0471/ru.olymp.spb.municipal.2016.main.spb-pts-014.A.11.75570
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pts-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'zadacha_A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pts-014.A.12.75593 exported to 017/253/3275/ru.olymp.spb.municipal.2016.main.spb-pts-014.A.12.75593
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pts-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'zadacha_A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-038.D.1.75658 exported to 105/935/1638/ru.olymp.spb.municipal.2016.main.spb-kln-038.D.1.75658
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'nomerC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.A.1.75807 exported to 080/145/4928/ru.olymp.spb.municipal.2016.main.spb-239-041.A.1.75807
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-038.D.2.75869 exported to 017/184/6003/ru.olymp.spb.municipal.2016.main.spb-kln-038.D.2.75869
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'nomerC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.A.1.75983 exported to 053/571/6649/ru.olymp.spb.municipal.2016.main.spb-239-056.A.1.75983
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'project1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.A.1.76018 exported to 156/745/6155/ru.olymp.spb.municipal.2016.main.spb-239-050.A.1.76018
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 4
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pts-031.E.1.76107 exported to 154/292/4124/ru.olymp.spb.municipal.2016.main.spb-pts-031.E.1.76107
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-pts-031
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'District.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.A.2.76118 exported to 067/995/1513/ru.olymp.spb.municipal.2016.main.spb-239-050.A.2.76118
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.A.1.76120 exported to 120/556/1813/ru.olymp.spb.municipal.2016.main.spb-239-009.A.1.76120
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-ptd-009.E.1.76124 exported to 026/435/4565/ru.olymp.spb.municipal.2016.main.spb-ptd-009.E.1.76124
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-ptd-009
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'Program5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-066.A.1.76126 exported to 066/482/1288/ru.olymp.spb.municipal.2016.main.spb-239-066.A.1.76126
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-066
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-239-066.A.1.76126/sources/test1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling test1.pas
+        test1.pas(1,6) Fatal: Can't find unit Arrays used by Program
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'test1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-066.A.2.76132 exported to 155/232/4996/ru.olymp.spb.municipal.2016.main.spb-239-066.A.2.76132
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-066
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'test1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.B.1.76147 exported to 127/171/5831/ru.olymp.spb.municipal.2016.main.spb-239-056.B.1.76147
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Project2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pts-031.E.2.76183 exported to 065/542/0199/ru.olymp.spb.municipal.2016.main.spb-pts-031.E.2.76183
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-pts-031
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'District.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-014.A.1.76185 exported to 068/165/6700/ru.olymp.spb.municipal.2016.main.spb-239-014.A.1.76185
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-014
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-052.A.1.76190 exported to 086/639/0376/ru.olymp.spb.municipal.2016.main.spb-239-052.A.1.76190
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-052
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'problemA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.A.1.76204 exported to 098/621/2652/ru.olymp.spb.municipal.2016.main.spb-239-003.A.1.76204
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Program7.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.A.1.76216 exported to 177/754/2736/ru.olymp.spb.municipal.2016.main.spb-239-017.A.1.76216
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.B.1.76222 exported to 100/597/5453/ru.olymp.spb.municipal.2016.main.spb-239-041.B.1.76222
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-072.A.1.76255 exported to 060/822/4096/ru.olymp.spb.municipal.2016.main.spb-239-072.A.1.76255
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-072
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'project1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.A.1.76262 exported to 118/872/7291/ru.olymp.spb.municipal.2016.main.spb-239-071.A.1.76262
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'sasha.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-012.A.3.76271 exported to 039/228/7010/ru.olymp.spb.municipal.2016.main.spb-239-012.A.3.76271
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-012
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Project1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.B.2.76281 exported to 038/421/1071/ru.olymp.spb.municipal.2016.main.spb-239-056.B.2.76281
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'Project2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.B.1.76302 exported to 128/195/2882/ru.olymp.spb.municipal.2016.main.spb-239-009.B.1.76302
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'b.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.B.2.76341 exported to 212/551/0610/ru.olymp.spb.municipal.2016.main.spb-239-009.B.2.76341
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'b.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-072.B.1.76367 exported to 187/928/9731/ru.olymp.spb.municipal.2016.main.spb-239-072.B.1.76367
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-072
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'project1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.B.3.76391 exported to 123/800/6774/ru.olymp.spb.municipal.2016.main.spb-239-009.B.3.76391
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'b.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.C.1.76408 exported to 088/739/3972/ru.olymp.spb.municipal.2016.main.spb-239-050.C.1.76408
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.B.4.76418 exported to 035/050/2373/ru.olymp.spb.municipal.2016.main.spb-239-009.B.4.76418
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'b.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.C.2.76422 exported to 000/010/9765/ru.olymp.spb.municipal.2016.main.spb-239-050.C.2.76422
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 14
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.C.1.76426 exported to 148/153/9306/ru.olymp.spb.municipal.2016.main.spb-239-041.C.1.76426
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.C.3.76449 exported to 088/761/3515/ru.olymp.spb.municipal.2016.main.spb-239-050.C.3.76449
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 14
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.B.3.76489 exported to 051/086/8586/ru.olymp.spb.municipal.2016.main.spb-239-021.B.3.76489
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-239-021.B.3.76489/sources/111.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling 111.pas
+        111.pas(42,16) Error: Operator is not overloaded: "LongInt" + "Char"
+        111.pas(44,4) Fatal: There were 1 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        '111.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.C.4.76490 exported to 177/511/7342/ru.olymp.spb.municipal.2016.main.spb-239-050.C.4.76490
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.B.4.76503 exported to 139/837/2974/ru.olymp.spb.municipal.2016.main.spb-239-021.B.4.76503
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 18
+    Verdict: runtime-error
+    Sources: 1
+        '111.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-072.C.1.76514 exported to 007/183/7032/ru.olymp.spb.municipal.2016.main.spb-239-072.C.1.76514
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-072
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'project2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.B.1.76569 exported to 082/123/8737/ru.olymp.spb.municipal.2016.main.spb-239-003.B.1.76569
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.C.1.76605 exported to 122/337/5727/ru.olymp.spb.municipal.2016.main.spb-239-021.C.1.76605
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.C.1.76614 exported to 052/549/8665/ru.olymp.spb.municipal.2016.main.spb-239-009.C.1.76614
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'c.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.C.1.76629 exported to 121/580/1747/ru.olymp.spb.municipal.2016.main.spb-239-056.C.1.76629
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 16
+    Verdict: wrong-answer
+    Sources: 1
+        'Project3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.B.1.76656 exported to 061/872/3355/ru.olymp.spb.municipal.2016.main.spb-239-071.B.1.76656
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'sasha1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-agy-009.A.1.76702 exported to 080/844/7952/ru.olymp.spb.municipal.2016.main.spb-agy-009.A.1.76702
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-agy-009
+    Language: pascal.free
+    Test number: 6
+    Verdict: wrong-answer
+    Sources: 1
+        'ProgramA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.B.1.76741 exported to 070/997/4990/ru.olymp.spb.municipal.2016.main.spb-239-017.B.1.76741
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-239-014.B.1.76760 exported to 180/586/1832/ru.olymp.spb.municipal.2016.main.spb-239-014.B.1.76760
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-014
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'prb.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.B.2.76773 exported to 011/846/6811/ru.olymp.spb.municipal.2016.main.spb-239-041.B.2.76773
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'B2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.C.2.76851 exported to 210/330/7435/ru.olymp.spb.municipal.2016.main.spb-239-056.C.2.76851
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'Project3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.C.1.76873 exported to 186/879/1459/ru.olymp.spb.municipal.2016.main.spb-239-071.C.1.76873
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'sasha2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-014.B.2.76879 exported to 160/160/0782/ru.olymp.spb.municipal.2016.main.spb-239-014.B.2.76879
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-014
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'prb.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-072.C.2.76924 exported to 095/934/4588/ru.olymp.spb.municipal.2016.main.spb-239-072.C.2.76924
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-072
+    Language: pascal.free
+    Test number: 17
+    Verdict: wrong-answer
+    Sources: 1
+        'project2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.B.3.77016 exported to 076/905/9751/ru.olymp.spb.municipal.2016.main.spb-239-041.B.3.77016
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 1
+    Verdict: presentation-error
+    Sources: 1
+        'B2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.D.1.77028 exported to 058/405/4646/ru.olymp.spb.municipal.2016.main.spb-239-021.D.1.77028
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.1.77033 exported to 002/251/3714/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.1.77033
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.1.77033/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(1,4) Fatal: Syntax error, "BEGIN" expected but "identifier WAR" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.D.2.77050 exported to 030/344/9120/ru.olymp.spb.municipal.2016.main.spb-239-021.D.2.77050
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.B.4.77110 exported to 165/656/4387/ru.olymp.spb.municipal.2016.main.spb-239-041.B.4.77110
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 11
+    Verdict: wrong-answer
+    Sources: 1
+        'B2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.D.3.77121 exported to 119/095/3670/ru.olymp.spb.municipal.2016.main.spb-239-021.D.3.77121
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 50
+    Verdict: accepted
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-031.A.1.77133 exported to 126/626/8035/ru.olymp.spb.municipal.2016.main.spb-kir-031.A.1.77133
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-031
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'test1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.B.5.77159 exported to 175/089/9095/ru.olymp.spb.municipal.2016.main.spb-239-041.B.5.77159
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'B2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.C.1.77161 exported to 166/630/0035/ru.olymp.spb.municipal.2016.main.spb-239-003.C.1.77161
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 16
+    Verdict: wrong-answer
+    Sources: 1
+        'Program3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.B.6.77196 exported to 086/339/5293/ru.olymp.spb.municipal.2016.main.spb-239-041.B.6.77196
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 11
+    Verdict: wrong-answer
+    Sources: 1
+        'B2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.B.1.77208 exported to 092/008/8360/ru.olymp.spb.municipal.2016.main.spb-239-050.B.1.77208
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.C.1.77236 exported to 070/257/4009/ru.olymp.spb.municipal.2016.main.spb-adm-042.C.1.77236
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.C.1.77236/sources/C.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling C.pas
+        C.pas(1,4) Fatal: Syntax error, "BEGIN" expected but "identifier WAR" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.C.2.77256 exported to 159/007/7752/ru.olymp.spb.municipal.2016.main.spb-adm-042.C.2.77256
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.C.2.77256/sources/C.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling C.pas
+        C.pas(1,8) Error: Illegal expression
+        C.pas(2,1) Fatal: Syntax error, ";" expected but "identifier WAR" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.B.2.77278 exported to 180/759/2258/ru.olymp.spb.municipal.2016.main.spb-239-050.B.2.77278
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.2.77279 exported to 091/001/9447/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.2.77279
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.2.77279/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(2,8) Fatal: Syntax error, "BEGIN" expected but "identifier LOGINT" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.3.77289 exported to 179/752/3159/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.3.77289
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.3.77289/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(1,7) Error: Illegal expression
+        A.pas(2,2) Fatal: Syntax error, ";" expected but "identifier LOGINT" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.4.77293 exported to 160/994/0431/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.4.77293
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.4.77293/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(1,7) Error: Illegal expression
+        A.pas(2,2) Fatal: Syntax error, ";" expected but "identifier LOGINT" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.5.77303 exported to 072/243/6068/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.5.77303
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.5.77303/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(2,2) Error: Identifier not found "logint"
+        A.pas(2,8) Fatal: Syntax error, ";" expected but ":" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.6.77319 exported to 016/506/7650/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.6.77319
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.6.77319/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(2,2) Error: Identifier not found "logint"
+        A.pas(2,9) Fatal: Syntax error, ";" expected but "identifier K" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.C.2.77341 exported to 174/116/1720/ru.olymp.spb.municipal.2016.main.spb-239-003.C.2.77341
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'Program3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.C.1.77344 exported to 109/745/3523/ru.olymp.spb.municipal.2016.main.spb-239-017.C.1.77344
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-239-072.B.2.77366 exported to 152/814/4094/ru.olymp.spb.municipal.2016.main.spb-239-072.B.2.77366
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-072
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'project5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.C.2.77368 exported to 020/994/9776/ru.olymp.spb.municipal.2016.main.spb-239-017.C.2.77368
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.D.1.77385 exported to 032/588/6142/ru.olymp.spb.municipal.2016.main.spb-239-041.D.1.77385
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'D.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.D.2.77406 exported to 056/161/8253/ru.olymp.spb.municipal.2016.main.spb-239-041.D.2.77406
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'D.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.D.3.77431 exported to 144/912/2022/ru.olymp.spb.municipal.2016.main.spb-239-041.D.3.77431
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'D.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-060.A.1.77467 exported to 169/432/0433/ru.olymp.spb.municipal.2016.main.spb-kol-060.A.1.77467
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-060
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-kol-060.A.1.77467/sources/Program1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program1.pas
+        Program1.pas(7,1) Fatal: Syntax error, ";" expected but "ELSE" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pri-030.A.4.77508 exported to 038/690/7326/ru.olymp.spb.municipal.2016.main.spb-pri-030.A.4.77508
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pri-030
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-027.A.1.77556 exported to 070/784/6889/ru.olymp.spb.municipal.2016.main.spb-kir-027.A.1.77556
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-027
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'aa.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.A.1.77588 exported to 013/586/5125/ru.olymp.spb.municipal.2016.main.spb-kir-035.A.1.77588
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.E.1.77591 exported to 020/730/4578/ru.olymp.spb.municipal.2016.main.spb-239-050.E.1.77591
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.B.1.77594 exported to 167/158/9311/ru.olymp.spb.municipal.2016.main.spb-kir-035.B.1.77594
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 9
+    Verdict: wrong-answer
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-033.A.1.77604 exported to 056/519/8744/ru.olymp.spb.municipal.2016.main.spb-kir-033.A.1.77604
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-033
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'olymp1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.B.2.77610 exported to 078/408/4921/ru.olymp.spb.municipal.2016.main.spb-kir-035.B.2.77610
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 9
+    Verdict: wrong-answer
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.E.2.77620 exported to 068/019/9846/ru.olymp.spb.municipal.2016.main.spb-239-050.E.2.77620
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.B.3.77628 exported to 010/341/8799/ru.olymp.spb.municipal.2016.main.spb-kir-035.B.3.77628
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.B.4.77647 exported to 099/092/2541/ru.olymp.spb.municipal.2016.main.spb-kir-035.B.4.77647
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 9
+    Verdict: wrong-answer
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.E.3.77649 exported to 156/770/3598/ru.olymp.spb.municipal.2016.main.spb-239-050.E.3.77649
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 21
+    Verdict: runtime-error
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-009.A.1.77657 exported to 191/233/8630/ru.olymp.spb.municipal.2016.main.spb-yms-009.A.1.77657
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-009
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-yms-009.A.1.77657/sources/beauty.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling beauty.pas
+        beauty.pas(13,18) Warning: Variable "s" does not seem to be initialized
+        beauty.pas(14,12) Fatal: Syntax error, ";" expected but "." found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'beauty.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.B.5.77673 exported to 187/842/6311/ru.olymp.spb.municipal.2016.main.spb-kir-035.B.5.77673
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-009.A.2.77695 exported to 102/483/4827/ru.olymp.spb.municipal.2016.main.spb-yms-009.A.2.77695
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-009
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'beauty.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-015.A.1.77702 exported to 110/958/3030/ru.olymp.spb.municipal.2016.main.spb-yms-015.A.1.77702
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-015
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'taskA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.D.1.77705 exported to 196/204/4890/ru.olymp.spb.municipal.2016.main.spb-239-009.D.1.77705
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 13
+    Verdict: wrong-answer
+    Sources: 1
+        'd.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.A.1.77709 exported to 168/156/4896/ru.olymp.spb.municipal.2016.main.spb-yms-007.A.1.77709
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'kod.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.A.1.77730 exported to 001/369/6340/ru.olymp.spb.municipal.2016.main.spb-yms-018.A.1.77730
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'task1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-014.C.1.77731 exported to 000/156/2932/ru.olymp.spb.municipal.2016.main.spb-239-014.C.1.77731
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-014
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'prc.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-059.A.1.77734 exported to 209/312/0470/ru.olymp.spb.municipal.2016.main.spb-krg-059.A.1.77734
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-059
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Program14.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.E.4.77736 exported to 183/975/9090/ru.olymp.spb.municipal.2016.main.spb-239-050.E.4.77736
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 21
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.1.77772 exported to 139/006/3245/ru.olymp.spb.municipal.2016.main.spb-239-017.D.1.77772
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.A.1.77783 exported to 029/254/5877/ru.olymp.spb.municipal.2016.main.spb-yms-011.A.1.77783
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'zadachaA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-023.A.1.77817 exported to 203/259/5453/ru.olymp.spb.municipal.2016.main.spb-adm-023.A.1.77817
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-023
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-023.A.1.77817/sources/Program1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program1.pas
+        Program1.pas(2,14) Fatal: Syntax error, "]" expected but "TO" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-036.A.1.77822 exported to 129/556/7807/ru.olymp.spb.municipal.2016.main.spb-adm-036.A.1.77822
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-036
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-036.A.1.77822/sources/2288.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling 2288.pas
+        2288.pas(5,7) Fatal: Syntax error, ";" expected but "TO" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        '2288.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-019.A.1.77840 exported to 178/325/4027/ru.olymp.spb.municipal.2016.main.spb-yms-019.A.1.77840
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-019
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        '1task.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.7.77847 exported to 105/257/6227/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.7.77847
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.7.77847/sources/A2.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A2.pas
+        A2.pas(1,4) Fatal: Syntax error, "identifier" expected but ";" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-033.C.1.77863 exported to 011/486/1733/ru.olymp.spb.municipal.2016.main.spb-kir-033.C.1.77863
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-033
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-006.A.1.77898 exported to 081/644/9802/ru.olymp.spb.municipal.2016.main.spb-yms-006.A.1.77898
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-006
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'TaskA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-023.A.1.77918 exported to 051/343/2967/ru.olymp.spb.municipal.2016.main.spb-krs-023.A.1.77918
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-023
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'krasota.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.1.77974 exported to 024/769/3665/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.1.77974
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.A.1.78020 exported to 034/537/5446/ru.olymp.spb.municipal.2016.main.spb-vyb-015.A.1.78020
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Shkaf1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.D.4.78025 exported to 207/848/6185/ru.olymp.spb.municipal.2016.main.spb-239-021.D.4.78025
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-239-021.D.4.78025/sources/2222.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling 2222.pas
+        2222.pas(10,12) Error: Identifier not found "floor"
+        2222.pas(16,12) Error: Identifier not found "floor"
+        2222.pas(32,12) Error: Identifier not found "floor"
+        2222.pas(38,12) Error: Identifier not found "floor"
+        2222.pas(50,4) Fatal: There were 4 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-059.B.1.78030 exported to 028/568/9067/ru.olymp.spb.municipal.2016.main.spb-krg-059.B.1.78030
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-059
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program15.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-033.C.2.78044 exported to 100/238/7456/ru.olymp.spb.municipal.2016.main.spb-kir-033.C.2.78044
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-033
+    Language: pascal.free
+    Test number: 16
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-nev-041.A.1.78045 exported to 188/978/5306/ru.olymp.spb.municipal.2016.main.spb-nev-041.A.1.78045
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-nev-041
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'one.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-016.A.1.78058 exported to 089/110/1954/ru.olymp.spb.municipal.2016.main.spb-kln-016.A.1.78058
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-016
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'OLIMP_A.PAS'
+Job ru.olymp.spb.municipal.2016.main.spb-pus-036.A.2.78063 exported to 137/413/2536/ru.olymp.spb.municipal.2016.main.spb-pus-036.A.2.78063
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pus-036
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.D.5.78087 exported to 132/897/7242/ru.olymp.spb.municipal.2016.main.spb-239-021.D.5.78087
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 50
+    Verdict: accepted
+    Sources: 1
+        '333.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.A.1.78088 exported to 214/232/6611/ru.olymp.spb.municipal.2016.main.spb-vyb-016.A.1.78088
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.E.1.78092 exported to 194/857/9967/ru.olymp.spb.municipal.2016.main.spb-239-003.E.1.78092
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'Program5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-031.C.1.78099 exported to 058/618/0643/ru.olymp.spb.municipal.2016.main.spb-kir-031.C.1.78099
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-031
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'test2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.2.78102 exported to 201/737/6562/ru.olymp.spb.municipal.2016.main.spb-239-017.D.2.78102
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-031.C.2.78111 exported to 030/132/3743/ru.olymp.spb.municipal.2016.main.spb-kir-031.C.2.78111
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-031
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'test2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.E.2.78136 exported to 106/107/5507/ru.olymp.spb.municipal.2016.main.spb-239-003.E.2.78136
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'Program5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.D.1.78137 exported to 160/017/5652/ru.olymp.spb.municipal.2016.main.spb-239-050.D.1.78137
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-051.A.3.78138 exported to 057/138/1385/ru.olymp.spb.municipal.2016.main.spb-adm-051.A.3.78138
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-051
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-051.A.3.78138/sources/A.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A.pas
+        A.pas(17,6) Error: Identifier not found "HideCursor"
+        A.pas(26,22) Warning: Variable "e" does not seem to be initialized
+        A.pas(42,4) Fatal: There were 1 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.3.78177 exported to 112/987/2659/ru.olymp.spb.municipal.2016.main.spb-239-017.D.3.78177
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.B.1.78179 exported to 209/997/6340/ru.olymp.spb.municipal.2016.main.spb-yms-011.B.1.78179
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.B.2.78190 exported to 121/247/2606/ru.olymp.spb.municipal.2016.main.spb-yms-011.B.2.78190
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.B.3.78222 exported to 032/496/8179/ru.olymp.spb.municipal.2016.main.spb-yms-011.B.3.78222
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-044.A.1.78236 exported to 183/882/6029/ru.olymp.spb.municipal.2016.main.spb-vyb-044.A.1.78236
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-044
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'zad1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.E.3.78242 exported to 017/357/0838/ru.olymp.spb.municipal.2016.main.spb-239-003.E.3.78242
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-239-003.E.3.78242/sources/Program5.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program5.pas
+        Program5.pas(7,7) Error: Ordinal expression expected
+        Program5.pas(9,7) Error: Ordinal expression expected
+        Program5.pas(13,9) Error: Ordinal expression expected
+        Program5.pas(22,6) Fatal: There were 3 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.E.4.78263 exported to 071/393/2906/ru.olymp.spb.municipal.2016.main.spb-239-003.E.4.78263
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'Program5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.2.78270 exported to 113/522/0406/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.2.78270
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-010.A.1.78304 exported to 150/443/1182/ru.olymp.spb.municipal.2016.main.spb-yms-010.A.1.78304
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-010
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'first.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.D.1.78305 exported to 059/159/6083/ru.olymp.spb.municipal.2016.main.spb-239-056.D.1.78305
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 45
+    Verdict: wrong-answer
+    Sources: 1
+        'Project4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.E.1.78306 exported to 190/349/0797/ru.olymp.spb.municipal.2016.main.spb-239-021.E.1.78306
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-239-021.E.1.78306/sources/2222.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling 2222.pas
+        2222.pas(10,12) Error: Identifier not found "floor"
+        2222.pas(16,12) Error: Identifier not found "floor"
+        2222.pas(32,12) Error: Identifier not found "floor"
+        2222.pas(38,12) Error: Identifier not found "floor"
+        2222.pas(50,4) Fatal: There were 4 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.3.78309 exported to 202/272/4840/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.3.78309
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.4.78333 exported to 024/236/7184/ru.olymp.spb.municipal.2016.main.spb-239-017.D.4.78333
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.4.78334 exported to 138/473/8687/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.4.78334
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-044.A.1.78350 exported to 120/491/5500/ru.olymp.spb.municipal.2016.main.spb-kln-044.A.1.78350
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-044
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.5.78368 exported to 049/723/4909/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.5.78368
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.6.78376 exported to 039/026/8801/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.6.78376
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-002.A.1.78385 exported to 114/149/0603/ru.olymp.spb.municipal.2016.main.spb-krg-002.A.1.78385
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-002
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        '2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kur-004.A.1.78388 exported to 028/584/6632/ru.olymp.spb.municipal.2016.main.spb-kur-004.A.1.78388
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kur-004
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.5.78389 exported to 064/513/6658/ru.olymp.spb.municipal.2016.main.spb-239-017.D.5.78389
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-038.A.7.78396 exported to 127/777/2544/ru.olymp.spb.municipal.2016.main.spb-krs-038.A.7.78396
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-038
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.E.1.78419 exported to 213/331/0066/ru.olymp.spb.municipal.2016.main.spb-239-041.E.1.78419
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'E.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-041.E.2.78436 exported to 124/580/6326/ru.olymp.spb.municipal.2016.main.spb-239-041.E.2.78436
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-041
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'E.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-042.A.8.78437 exported to 194/010/5824/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.8.78437
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-042.A.8.78437/sources/A3.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling A3.pas
+        A3.pas(3,1) Fatal: Syntax error, ":" expected but "BEGIN" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'A3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.E.2.78441 exported to 150/397/1738/ru.olymp.spb.municipal.2016.main.spb-239-021.E.2.78441
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.E.5.78495 exported to 160/143/8604/ru.olymp.spb.municipal.2016.main.spb-239-003.E.5.78495
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 17
+    Verdict: wrong-answer
+    Sources: 1
+        'Program5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-003.A.1.78503 exported to 065/545/9084/ru.olymp.spb.municipal.2016.main.spb-krg-003.A.1.78503
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        'ProgramA.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-047.E.1.78515 exported to 119/242/2591/ru.olymp.spb.municipal.2016.main.spb-kol-047.E.1.78515
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-047
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        'E.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.D.2.78519 exported to 029/590/9555/ru.olymp.spb.municipal.2016.main.spb-239-056.D.2.78519
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 45
+    Verdict: wrong-answer
+    Sources: 1
+        'Project4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-019.A.2.78526 exported to 089/572/3494/ru.olymp.spb.municipal.2016.main.spb-yms-019.A.2.78526
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-019
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        '1task.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.6.78546 exported to 153/264/2134/ru.olymp.spb.municipal.2016.main.spb-239-017.D.6.78546
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-239-056.D.3.78548 exported to 118/341/3328/ru.olymp.spb.municipal.2016.main.spb-239-056.D.3.78548
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-056
+    Language: pascal.free
+    Test number: 50
+    Verdict: accepted
+    Sources: 1
+        'Project4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-072.B.1.78562 exported to 139/765/7904/ru.olymp.spb.municipal.2016.main.spb-adm-072.B.1.78562
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-072
+    Language: pascal.free
+    Test number: 15
+    Verdict: wrong-answer
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-047.C.1.78564 exported to 187/248/0807/ru.olymp.spb.municipal.2016.main.spb-kol-047.C.1.78564
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-047
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-kol-047.C.1.78564/sources/ALG_DISC_abc.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling ALG_DISC_abc.PAS
+        ALG_DISC_abc.PAS(55,3) Error: Can't use read or write on untyped file.
+        ALG_DISC_abc.PAS(60,3) Error: Can't use read or write on untyped file.
+        ALG_DISC_abc.PAS(72,3) Error: Can't use read or write on untyped file.
+        ALG_DISC_abc.PAS(77,3) Error: Can't use read or write on untyped file.
+        ALG_DISC_abc.PAS(89) Fatal: There were 4 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'ALG_DISC_abc.PAS'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.D.2.78589 exported to 180/728/3962/ru.olymp.spb.municipal.2016.main.spb-239-050.D.2.78589
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.E.3.78630 exported to 061/646/6167/ru.olymp.spb.municipal.2016.main.spb-239-021.E.3.78630
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 50
+    Verdict: accepted
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-010.A.2.78649 exported to 190/302/9421/ru.olymp.spb.municipal.2016.main.spb-yms-010.A.2.78649
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-010
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'first.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.E.1.78652 exported to 174/605/9870/ru.olymp.spb.municipal.2016.main.spb-239-071.E.1.78652
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 31
+    Verdict: runtime-error
+    Sources: 1
+        'sasha3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.B.5.78667 exported to 200/902/9908/ru.olymp.spb.municipal.2016.main.spb-239-021.B.5.78667
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        '111.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-047.D.1.78672 exported to 061/503/3016/ru.olymp.spb.municipal.2016.main.spb-kol-047.D.1.78672
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-047
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-kol-047.D.1.78672/sources/D.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling D.pas
+        D.pas(4,8) Fatal: Can't find unit graphABC used by tree_pifagor
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'D.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-050.D.3.78679 exported to 091/977/9351/ru.olymp.spb.municipal.2016.main.spb-239-050.D.3.78679
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-050
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-014.E.1.78681 exported to 067/852/4423/ru.olymp.spb.municipal.2016.main.spb-239-014.E.1.78681
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-014
+    Language: pascal.free
+    Test number: 25
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'pre.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-047.D.2.78687 exported to 150/253/6733/ru.olymp.spb.municipal.2016.main.spb-kol-047.D.2.78687
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-047
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-kol-047.D.2.78687/sources/D.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling D.pas
+        D.pas(4,8) Fatal: Can't find unit graphABC used by tree_pifagor
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'D.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.7.78705 exported to 187/481/9684/ru.olymp.spb.municipal.2016.main.spb-239-017.D.7.78705
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.A.1.78711 exported to 138/840/3086/ru.olymp.spb.municipal.2016.main.spb-yms-014.A.1.78711
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-yms-014.A.1.78711/sources/olymp1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling olymp1.pas
+        olymp1.pas(9,8) Error: Incompatible types: got "Char" expected "LongInt"
+        olymp1.pas(9,21) Error: Incompatible types: got "Char" expected "LongInt"
+        olymp1.pas(12,10) Fatal: Syntax error, "THEN" expected but "(" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'olymp1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-027.B.1.78730 exported to 109/957/5929/ru.olymp.spb.municipal.2016.main.spb-kir-027.B.1.78730
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-027
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'bb.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-010.A.3.78736 exported to 101/552/4813/ru.olymp.spb.municipal.2016.main.spb-yms-010.A.3.78736
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-010
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'first.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.8.78760 exported to 098/731/5822/ru.olymp.spb.municipal.2016.main.spb-239-017.D.8.78760
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.B.1.78761 exported to 109/910/9902/ru.olymp.spb.municipal.2016.main.spb-yms-014.B.1.78761
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-006.C.2.78772 exported to 075/114/1011/ru.olymp.spb.municipal.2016.main.spb-yms-006.C.2.78772
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-006
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'TaskC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-009.D.2.78780 exported to 144/538/8691/ru.olymp.spb.municipal.2016.main.spb-239-009.D.2.78780
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-009
+    Language: pascal.free
+    Test number: 13
+    Verdict: wrong-answer
+    Sources: 1
+        'd.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-006.C.3.78791 exported to 163/864/4753/ru.olymp.spb.municipal.2016.main.spb-yms-006.C.3.78791
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-006
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'TaskC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-017.D.9.78805 exported to 009/981/1361/ru.olymp.spb.municipal.2016.main.spb-239-017.D.9.78805
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-017
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        '1.txt'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-007.D.1.78827 exported to 038/072/3072/ru.olymp.spb.municipal.2016.main.spb-krg-007.D.1.78827
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-007
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'D.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-021.E.4.78839 exported to 027/103/9445/ru.olymp.spb.municipal.2016.main.spb-239-021.E.4.78839
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-021
+    Language: pascal.free
+    Test number: 50
+    Verdict: accepted
+    Sources: 1
+        '2222.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.D.1.78857 exported to 014/111/7935/ru.olymp.spb.municipal.2016.main.spb-239-003.D.1.78857
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-239-003.D.1.78857/sources/Program4.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program4.pas
+        Program4.pas(5,3) Error: Identifier not found "s"
+        Program4.pas(6,3) Error: Identifier not found "sum"
+        Program4.pas(9,6) Fatal: Unexpected end of file
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.D.1.78859 exported to 006/139/6522/ru.olymp.spb.municipal.2016.main.spb-239-071.D.1.78859
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'sasha4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-003.D.2.78872 exported to 074/638/5803/ru.olymp.spb.municipal.2016.main.spb-239-003.D.2.78872
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-003
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'Program4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-006.C.4.78885 exported to 176/881/7928/ru.olymp.spb.municipal.2016.main.spb-yms-006.C.4.78885
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-006
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'TaskC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.B.4.78900 exported to 056/254/2165/ru.olymp.spb.municipal.2016.main.spb-yms-011.B.4.78900
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-042.A.2.78970 exported to 101/847/0569/ru.olymp.spb.municipal.2016.main.spb-kln-042.A.2.78970
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-kln-042.A.2.78970/sources/Program1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program1.pas
+        Program1.pas(8,28) Error: range check error while evaluating constants (1000000000 must be between -32768 and 32767)
+        Program1.pas(19) Fatal: There were 1 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-003.B.1.78984 exported to 183/205/7842/ru.olymp.spb.municipal.2016.main.spb-krg-003.B.1.78984
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'ProgramB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.B.5.78991 exported to 145/004/6126/ru.olymp.spb.municipal.2016.main.spb-yms-011.B.5.78991
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.A.2.79017 exported to 050/087/6335/ru.olymp.spb.municipal.2016.main.spb-yms-014.A.2.79017
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.A.3.79021 exported to 038/662/7371/ru.olymp.spb.municipal.2016.main.spb-yms-014.A.3.79021
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-005.D.2.79039 exported to 071/649/0691/ru.olymp.spb.municipal.2016.main.spb-krs-005.D.2.79039
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-005
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        'Program7.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-042.A.3.79044 exported to 013/094/5835/ru.olymp.spb.municipal.2016.main.spb-kln-042.A.3.79044
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-042
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-kln-042.A.3.79044/sources/Program1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program1.pas
+        Program1.pas(8,28) Error: range check error while evaluating constants (1000000000 must be between -32768 and 32767)
+        Program1.pas(20) Fatal: There were 1 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.A.2.79065 exported to 054/215/8155/ru.olymp.spb.municipal.2016.main.spb-vyb-015.A.2.79065
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'ShkAf3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.C.1.79075 exported to 033/471/2875/ru.olymp.spb.municipal.2016.main.spb-vyb-015.C.1.79075
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'ShkAf3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.B.2.79105 exported to 198/663/7426/ru.olymp.spb.municipal.2016.main.spb-yms-014.B.2.79105
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.D.2.79130 exported to 094/892/3196/ru.olymp.spb.municipal.2016.main.spb-239-071.D.2.79130
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 13
+    Verdict: wrong-answer
+    Sources: 1
+        'sasha4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.1.79147 exported to 003/140/0428/ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.1.79147
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-044
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zad1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-239-071.D.3.79155 exported to 183/642/6944/ru.olymp.spb.municipal.2016.main.spb-239-071.D.3.79155
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-239-071
+    Language: pascal.free
+    Test number: 13
+    Verdict: wrong-answer
+    Sources: 1
+        'sasha5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.2.79163 exported to 091/890/4167/ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.2.79163
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-044
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zad1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-052.A.1.79175 exported to 177/686/9423/ru.olymp.spb.municipal.2016.main.spb-kln-052.A.1.79175
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-052
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'a1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.3.79176 exported to 180/640/7882/ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.3.79176
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-044
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zad1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-nev-040.A.1.79194 exported to 009/280/3041/ru.olymp.spb.municipal.2016.main.spb-nev-040.A.1.79194
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-nev-040
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Gosha.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.4.79199 exported to 160/105/5668/ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.4.79199
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-044
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zad1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-044.A.1.79319 exported to 108/204/4508/ru.olymp.spb.municipal.2016.main.spb-mos-044.A.1.79319
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-044
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        '234.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.B.2.79329 exported to 103/528/1445/ru.olymp.spb.municipal.2016.main.spb-yms-008.B.2.79329
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 6
+    Verdict: wrong-answer
+    Sources: 1
+        '2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-032.B.1.79349 exported to 045/247/9805/ru.olymp.spb.municipal.2016.main.spb-kln-032.B.1.79349
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-032
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-043.A.1.79400 exported to 071/490/7772/ru.olymp.spb.municipal.2016.main.spb-mos-043.A.1.79400
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-043
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        '333.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-003.A.1.79421 exported to 027/949/2493/ru.olymp.spb.municipal.2016.main.spb-yms-003.A.1.79421
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-yms-003.A.1.79421/sources/Program2.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program2.pas
+        Program2.pas(2,7) Fatal: Syntax error, ":" expected but "ARRAY" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.B.6.79438 exported to 195/739/2682/ru.olymp.spb.municipal.2016.main.spb-yms-011.B.6.79438
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-adm-007.B.1.79465 exported to 159/893/6989/ru.olymp.spb.municipal.2016.main.spb-adm-007.B.1.79465
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-adm-007
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-adm-007.B.1.79465/sources/Problem2.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Problem2.pas
+        Problem2.pas(7,8) Error: Identifier not found "ceil"
+        Problem2.pas(7,21) Error: Identifier not found "floor"
+        Problem2.pas(11,3) Warning: Variable "c" does not seem to be initialized
+        Problem2.pas(17,7) Warning: Variable "f" does not seem to be initialized
+        Problem2.pas(36,4) Fatal: There were 2 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Problem2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-nev-040.A.2.79489 exported to 079/470/3497/ru.olymp.spb.municipal.2016.main.spb-nev-040.A.2.79489
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-nev-040
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Gjsha.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.B.3.79506 exported to 014/777/5907/ru.olymp.spb.municipal.2016.main.spb-yms-008.B.3.79506
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 6
+    Verdict: wrong-answer
+    Sources: 1
+        '2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.B.3.79509 exported to 142/082/2341/ru.olymp.spb.municipal.2016.main.spb-yms-014.B.3.79509
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.B.1.79514 exported to 179/370/0521/ru.olymp.spb.municipal.2016.main.spb-yms-018.B.1.79514
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'task2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.C.1.79529 exported to 038/756/9973/ru.olymp.spb.municipal.2016.main.spb-yms-011.C.1.79529
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.5.79594 exported to 071/354/8148/ru.olymp.spb.municipal.2016.main.spb-vyb-044.B.5.79594
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-044
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zad1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-009.C.1.79596 exported to 123/222/1516/ru.olymp.spb.municipal.2016.main.spb-yms-009.C.1.79596
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-009
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'colored_diagonals.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-012.C.2.79598 exported to 052/187/7489/ru.olymp.spb.municipal.2016.main.spb-yms-012.C.2.79598
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-012
+    Language: pascal.free
+    Test number: 16
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pri-026.A.1.79633 exported to 030/143/2071/ru.olymp.spb.municipal.2016.main.spb-pri-026.A.1.79633
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pri-026
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        'program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-003.A.2.79649 exported to 116/699/8166/ru.olymp.spb.municipal.2016.main.spb-yms-003.A.2.79649
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-yms-003.A.2.79649/sources/Program2.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program2.pas
+        Program2.pas(9,9) Warning: Variable "a" does not seem to be initialized
+        Program2.pas(9,13) Fatal: Syntax error, ";" expected but "," found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.B.4.79655 exported to 053/331/7548/ru.olymp.spb.municipal.2016.main.spb-yms-014.B.4.79655
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krs-005.A.3.79657 exported to 156/357/1005/ru.olymp.spb.municipal.2016.main.spb-krs-005.A.3.79657
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krs-005
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program6.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-003.D.1.79659 exported to 084/790/1577/ru.olymp.spb.municipal.2016.main.spb-yms-003.D.1.79659
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-yms-003.D.1.79659/sources/Program2.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program2.pas
+        Program2.pas(9,9) Warning: Variable "a" does not seem to be initialized
+        Program2.pas(9,13) Fatal: Syntax error, ";" expected but "," found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-003.A.3.79661 exported to 205/450/1901/ru.olymp.spb.municipal.2016.main.spb-yms-003.A.3.79661
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-003
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-yms-003.A.3.79661/sources/Program1.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling Program1.pas
+        Program1.pas(8,14) Warning: Variable "n" does not seem to be initialized
+        Program1.pas(10,9) Warning: Variable "a" does not seem to be initialized
+        Program1.pas(10,13) Fatal: Syntax error, ";" expected but "," found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'Program1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-059.C.1.79708 exported to 152/172/8963/ru.olymp.spb.municipal.2016.main.spb-krg-059.C.1.79708
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-059
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program16.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.C.2.79723 exported to 127/507/5570/ru.olymp.spb.municipal.2016.main.spb-yms-011.C.2.79723
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pri-026.A.2.79774 exported to 058/607/2696/ru.olymp.spb.municipal.2016.main.spb-pri-026.A.2.79774
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pri-026
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-031.C.3.79810 exported to 118/886/3941/ru.olymp.spb.municipal.2016.main.spb-kir-031.C.3.79810
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-031
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'test2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-059.B.2.79820 exported to 117/323/0196/ru.olymp.spb.municipal.2016.main.spb-krg-059.B.2.79820
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-059
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'Program15.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-027.A.1.79823 exported to 148/429/5230/ru.olymp.spb.municipal.2016.main.spb-kol-027.A.1.79823
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-027
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-059.D.1.79838 exported to 096/578/4924/ru.olymp.spb.municipal.2016.main.spb-krg-059.D.1.79838
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-059
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'Program17.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-018.A.1.79862 exported to 121/812/4697/ru.olymp.spb.municipal.2016.main.spb-kir-018.A.1.79862
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-018
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'Program_a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-018.B.1.79866 exported to 126/938/8140/ru.olymp.spb.municipal.2016.main.spb-kir-018.B.1.79866
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-018
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'program_b.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pri-026.A.3.79869 exported to 147/357/7312/ru.olymp.spb.municipal.2016.main.spb-pri-026.A.3.79869
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pri-026
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.B.4.79883 exported to 073/973/0902/ru.olymp.spb.municipal.2016.main.spb-yms-008.B.4.79883
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 6
+    Verdict: wrong-answer
+    Sources: 1
+        '2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-059.E.1.79892 exported to 084/166/9359/ru.olymp.spb.municipal.2016.main.spb-krg-059.E.1.79892
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-059
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program18.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-056.A.1.79928 exported to 025/189/1415/ru.olymp.spb.municipal.2016.main.spb-mos-056.A.1.79928
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-056
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zaa.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-pri-026.A.4.79933 exported to 193/388/5441/ru.olymp.spb.municipal.2016.main.spb-pri-026.A.4.79933
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-pri-026
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-035.C.1.79934 exported to 081/598/6762/ru.olymp.spb.municipal.2016.main.spb-kir-035.C.1.79934
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-035
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-027.E.5.79977 exported to 132/307/4546/ru.olymp.spb.municipal.2016.main.spb-kir-027.E.5.79977
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-027
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'e.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-027.C.1.79987 exported to 213/061/2545/ru.olymp.spb.municipal.2016.main.spb-kol-027.C.1.79987
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-027
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kol-027.C.2.80010 exported to 124/246/2335/ru.olymp.spb.municipal.2016.main.spb-kol-027.C.2.80010
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kol-027
+    Language: pascal.free
+    Test number: 0
+    Verdict: presentation-error
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kir-027.E.6.80014 exported to 208/374/2505/ru.olymp.spb.municipal.2016.main.spb-kir-027.E.6.80014
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-kir-027
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        'e.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.B.5.80023 exported to 162/788/2111/ru.olymp.spb.municipal.2016.main.spb-yms-008.B.5.80023
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 6
+    Verdict: wrong-answer
+    Sources: 1
+        '2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.C.3.80042 exported to 213/173/9309/ru.olymp.spb.municipal.2016.main.spb-yms-011.C.3.80042
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-012.D.1.80068 exported to 107/878/2167/ru.olymp.spb.municipal.2016.main.spb-yms-012.D.1.80068
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-012
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.C.4.80070 exported to 124/423/5537/ru.olymp.spb.municipal.2016.main.spb-yms-011.C.4.80070
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 10
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.B.1.80101 exported to 214/282/3480/ru.olymp.spb.municipal.2016.main.spb-vyb-015.B.1.80101
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 16
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'ShkAf2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.B.2.80115 exported to 126/464/0100/ru.olymp.spb.municipal.2016.main.spb-vyb-015.B.2.80115
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 16
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'ShkAf2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-009.C.2.80141 exported to 034/406/6437/ru.olymp.spb.municipal.2016.main.spb-yms-009.C.2.80141
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-009
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'colored_diagonals.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.A.4.80144 exported to 127/478/7480/ru.olymp.spb.municipal.2016.main.spb-yms-014.A.4.80144
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 8
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.B.6.80148 exported to 177/958/0476/ru.olymp.spb.municipal.2016.main.spb-yms-008.B.6.80148
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        '3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-006.B.1.80152 exported to 167/177/1158/ru.olymp.spb.municipal.2016.main.spb-yms-006.B.1.80152
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-006
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'TaskB.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.C.1.80157 exported to 056/538/1278/ru.olymp.spb.municipal.2016.main.spb-yms-008.C.1.80157
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        '3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.C.1.80158 exported to 070/766/5158/ru.olymp.spb.municipal.2016.main.spb-yms-014.C.1.80158
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-006.D.1.80159 exported to 194/313/7761/ru.olymp.spb.municipal.2016.main.spb-yms-006.D.1.80159
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-006
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'TaskD.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-012.D.2.80161 exported to 196/628/6802/ru.olymp.spb.municipal.2016.main.spb-yms-012.D.2.80161
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-012
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp5.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-075.A.1.80172 exported to 180/387/3245/ru.olymp.spb.municipal.2016.main.spb-mos-075.A.1.80172
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-075
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-mos-075.A.1.80172/sources/a.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling a.pas
+        a.pas(4,4) Error: Illegal expression
+        a.pas(4,1) Warning: Variable "z" does not seem to be initialized
+        a.pas(8,1) Fatal: Syntax error, "THEN" expected but "identifier K" found
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'a.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-061.A.1.80176 exported to 058/134/5779/ru.olymp.spb.municipal.2016.main.spb-krg-061.A.1.80176
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-061
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-krg-061.B.1.80182 exported to 190/616/7081/ru.olymp.spb.municipal.2016.main.spb-krg-061.B.1.80182
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-krg-061
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.C.2.80185 exported to 145/288/5050/ru.olymp.spb.municipal.2016.main.spb-yms-008.C.2.80185
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        '3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.A.5.80190 exported to 213/267/5984/ru.olymp.spb.municipal.2016.main.spb-yms-014.A.5.80190
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'olymp1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-022.C.2.80199 exported to 184/712/4811/ru.olymp.spb.municipal.2016.main.spb-vyb-022.C.2.80199
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-022
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-vyb-022.C.2.80199/sources/B.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling B.pas
+        B.pas(6,1) Error: Identifier not found "cls"
+        B.pas(42) Fatal: There were 1 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-022.B.2.80202 exported to 003/966/9673/ru.olymp.spb.municipal.2016.main.spb-vyb-022.B.2.80202
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-022
+    Language: pascal.free
+    Test number: 0
+    Verdict: compilation-error
+        Compilation error. Binary files [/runs/ru.olymp.spb.municipal.2016.main.spb-vyb-022.B.2.80202/sources/B.exe] not found
+        Free Pascal Compiler version 3.0.0 [2015/11/16] for i386
+        Copyright (c) 1993-2015 by Florian Klaempfl and others
+        Target OS: Win32 for i386
+        Compiling B.pas
+        B.pas(6,1) Error: Identifier not found "cls"
+        B.pas(42) Fatal: There were 1 errors compiling module, stopping
+        Fatal: Compilation aborted
+        Error: C:\soft\fp\bin\i386-win32\ppc386.exe returned an error exitcode
+    Sources: 1
+        'B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.1.80206 exported to 111/298/9661/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.1.80206
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.2.80221 exported to 022/548/5923/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.2.80221
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.C.2.80230 exported to 017/983/9414/ru.olymp.spb.municipal.2016.main.spb-yms-014.C.2.80230
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.3.80231 exported to 066/201/7789/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.3.80231
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.4.80246 exported to 154/952/1506/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.4.80246
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.5.80252 exported to 185/794/2082/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.5.80252
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-011.C.5.80253 exported to 035/672/9993/ru.olymp.spb.municipal.2016.main.spb-yms-011.C.5.80253
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-011
+    Language: pascal.free
+    Test number: 10
+    Verdict: wrong-answer
+    Sources: 1
+        'zadachaC.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.C.1.80254 exported to 193/263/3701/ru.olymp.spb.municipal.2016.main.spb-yms-007.C.1.80254
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 5
+    Verdict: wrong-answer
+    Sources: 1
+        'kod2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.6.80256 exported to 097/043/8397/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.6.80256
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.7.80260 exported to 008/293/4691/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.7.80260
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-018.D.8.80263 exported to 080/456/8993/ru.olymp.spb.municipal.2016.main.spb-yms-018.D.8.80263
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-018
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'task4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-016.A.1.80266 exported to 068/665/7960/ru.olymp.spb.municipal.2016.main.spb-yms-016.A.1.80266
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-016
+    Language: pascal.free
+    Test number: 10
+    Verdict: accepted
+    Sources: 1
+        'zadacha_A.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-016.A.2.80269 exported to 020/084/5724/ru.olymp.spb.municipal.2016.main.spb-yms-016.A.2.80269
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'zadacha_B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-016.A.3.80270 exported to 108/834/9427/ru.olymp.spb.municipal.2016.main.spb-yms-016.A.3.80270
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'zadacha_C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-016.B.1.80274 exported to 180/085/4902/ru.olymp.spb.municipal.2016.main.spb-yms-016.B.1.80274
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-016
+    Language: pascal.free
+    Test number: 25
+    Verdict: accepted
+    Sources: 1
+        'zadacha_B.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-016.C.1.80277 exported to 000/659/9558/ru.olymp.spb.municipal.2016.main.spb-yms-016.C.1.80277
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'zadacha_C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-014.C.3.80278 exported to 106/734/3227/ru.olymp.spb.municipal.2016.main.spb-yms-014.C.3.80278
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-014
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'olymp3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.C.2.80279 exported to 104/512/9953/ru.olymp.spb.municipal.2016.main.spb-yms-007.C.2.80279
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'kod2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-016.C.2.80281 exported to 088/090/4148/ru.olymp.spb.municipal.2016.main.spb-yms-016.C.2.80281
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-016
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'zadacha_C.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-008.B.7.80288 exported to 089/207/5710/ru.olymp.spb.municipal.2016.main.spb-yms-008.B.7.80288
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-008
+    Language: pascal.free
+    Test number: 6
+    Verdict: wrong-answer
+    Sources: 1
+        '2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.C.3.80299 exported to 015/762/6210/ru.olymp.spb.municipal.2016.main.spb-yms-007.C.3.80299
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'kod2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.1.80312 exported to 146/158/0388/ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.1.80312
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'yanevalera_3_1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.2.80330 exported to 057/407/6647/ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.2.80330
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 2
+    Verdict: wrong-answer
+    Sources: 1
+        'yanevalera_3_1.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.B.1.80334 exported to 012/517/8339/ru.olymp.spb.municipal.2016.main.spb-yms-007.B.1.80334
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'kod.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.B.2.80343 exported to 076/232/5372/ru.olymp.spb.municipal.2016.main.spb-yms-007.B.2.80343
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'kod.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.D.1.80356 exported to 055/488/0095/ru.olymp.spb.municipal.2016.main.spb-yms-007.D.1.80356
+    Problem: Красивые перестановки
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'kod.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kln-032.B.2.80362 exported to 134/063/8943/ru.olymp.spb.municipal.2016.main.spb-kln-032.B.2.80362
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kln-032
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'Program8.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-yms-007.E.1.80370 exported to 125/257/4312/ru.olymp.spb.municipal.2016.main.spb-yms-007.E.1.80370
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-yms-007
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'kod.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-007.C.4.80401 exported to 064/896/3572/ru.olymp.spb.municipal.2016.main.spb-mos-007.C.4.80401
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-007
+    Language: pascal.free
+    Test number: 16
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'Program4.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-054.B.1.80491 exported to 153/520/7647/ru.olymp.spb.municipal.2016.main.spb-mos-054.B.1.80491
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-054
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'qwer.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-mos-054.A.1.80493 exported to 095/230/5184/ru.olymp.spb.municipal.2016.main.spb-mos-054.A.1.80493
+    Problem: Любитель нулей
+    Party: ru.olymp.spb.municipal.2016.main.spb-mos-054
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'qwe.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.3.80560 exported to 031/342/9049/ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.3.80560
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'nevalera_3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.4.80563 exported to 120/093/2733/ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.4.80563
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 16
+    Verdict: wrong-answer
+    Sources: 1
+        'nevalera_3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.5.80596 exported to 208/843/6510/ru.olymp.spb.municipal.2016.main.spb-vyb-016.C.5.80596
+    Problem: Разноцветные диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 20
+    Verdict: accepted
+    Sources: 1
+        'nevalera_3.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kur-004.B.1.80713 exported to 209/261/2280/ru.olymp.spb.municipal.2016.main.spb-kur-004.B.1.80713
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kur-004
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-kur-004.B.2.80723 exported to 120/510/8568/ru.olymp.spb.municipal.2016.main.spb-kur-004.B.2.80723
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-kur-004
+    Language: pascal.free
+    Test number: 0
+    Verdict: runtime-error
+    Sources: 1
+        'Program2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.1.80806 exported to 034/587/8853/ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.1.80806
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'nevalera_2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.2.80809 exported to 123/338/2537/ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.2.80809
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: time-limit-exceeded
+    Sources: 1
+        'nevalera_2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.3.80810 exported to 212/088/6240/ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.3.80810
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'nevalera_2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.4.80811 exported to 128/657/7374/ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.4.80811
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        'nevalera_2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.5.80812 exported to 039/907/3692/ru.olymp.spb.municipal.2016.main.spb-vyb-016.B.5.80812
+    Problem: Дроби
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-016
+    Language: pascal.free
+    Test number: 1
+    Verdict: wrong-answer
+    Sources: 1
+        'nevalera_2.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.E.1.80827 exported to 101/543/4182/ru.olymp.spb.municipal.2016.main.spb-vyb-015.E.1.80827
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 0
+    Verdict: wrong-answer
+    Sources: 1
+        '1234.pas'
+Job ru.olymp.spb.municipal.2016.main.spb-vyb-015.E.2.80831 exported to 190/293/7888/ru.olymp.spb.municipal.2016.main.spb-vyb-015.E.2.80831
+    Problem: Номера по диагонали
+    Party: ru.olymp.spb.municipal.2016.main.spb-vyb-015
+    Language: pascal.free
+    Test number: 7
+    Verdict: wrong-answer
+    Sources: 1
+        '1234.pas'

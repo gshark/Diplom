@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class Main {
     public static void main(String[] args) {
-        Utils.loadSubmissionsFromFile("runs-extracted/summary.txt");
+        /*Utils.loadSubmissionsFromFile("runs-extracted/summary.txt");
         for (Map.Entry<Utils.ContestTeamProblem, List<HashMap<String, String>>> entry: Utils.submissions.entrySet()) {
             Utils.ContestTeamProblem ctp = entry.getKey();
             List<HashMap<String, String>> attempts = entry.getValue();
@@ -19,6 +19,6 @@ public class Main {
                 }
             }
 
-        }
+        }*/
     }
 }

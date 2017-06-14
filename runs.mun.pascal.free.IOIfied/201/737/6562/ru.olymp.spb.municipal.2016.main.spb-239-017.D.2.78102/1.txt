@@ -1,0 +1,116 @@
+program Project1;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes, SysUtils, CustApp, math
+  { you can add units after this };
+
+var
+  a: array [1..100, 1..100] of char;
+  n, i, j, k, count: integer;
+begin
+  count:=0;
+  read (n, k);
+  if (n=2) then
+  begin
+    if (2 mod k=0) then writeln ('2')
+    else writeln ('0');
+  end;
+  if (n=3) then
+  begin
+    if (8 mod k=0) then count:=count+2;
+    if (9 mod k=0) then count:=count+2;
+    if (5 mod k=0) then count:=count+2;
+    writeln (count);
+  end;
+  if (n=4) then
+  begin
+    if (12 mod k=0) then count:=count+2;
+    if (22 mod k=0) then count:=count+2;
+    if (23 mod k=0) then count:=count+2;
+    if (17 mod k=0) then count:=count+2;
+    if (18 mod k=0) then count:=count+2;
+    if (13 mod k=0) then count:=count+2;
+    if (15 mod k=0) then count:=count+2;
+    if (20 mod k=0) then count:=count+2;
+    if (14 mod k=0) then count:=count+2;
+    writeln (count);
+  end;
+  if (n=5) then
+  begin
+    if (8 mod k=0) then count:=count+2;
+    if (12 mod k=0) then count:=count+2;
+    if (14 mod k=0) then count:=count+2;
+    if (16 mod k=0) then count:=count+2;
+    if (10 mod k=0) then count:=count+2;
+    if (13 mod k=0) then count:=count+2;
+    if (19 mod k=0) then count:=count+2;
+    if (22 mod k=0) then count:=count+2;
+    if (20 mod k=0) then count:=count+2;
+    if (28 mod k=0) then count:=count+2;
+    if (24 mod k=0) then count:=count+2;
+    if (29 mod k=0) then count:=count+2;
+    if (15 mod k=0) then count:=count+2;
+    if (32 mod k=0) then count:=count+2;
+    if (40 mod k=0) then count:=count+2;
+    if (33 mod k=0) then count:=count+2;
+    if (38 mod k=0) then count:=count+2;
+    if (43 mod k=0) then count:=count+2;
+    if (17 mod k=0) then count:=count+2;
+    if (18 mod k=0) then count:=count+2;
+    if (26 mod k=0) then count:=count+2;
+    if (25 mod k=0) then count:=count+2;
+    if (34 mod k=0) then count:=count+2;
+    if (37 mod k=0) then count:=count+2;
+    if (35 mod k=0) then count:=count+2;
+    if (45 mod k=0) then count:=count+2;
+    if (50 mod k=0) then count:=count+2;
+    if (21 mod k=0) then count:=count+2;
+    if (30 mod k=0) then count:=count+2;
+    if (39 mod k=0) then count:=count+2;
+    if (42 mod k=0) then count:=count+2;
+    if (36 mod k=0) then count:=count+2;
+    if (44 mod k=0) then count:=count+2;
+    if (52 mod k=0) then count:=count+2;
+    if (31 mod k=0) then count:=count+2;
+    if (27 mod k=0) then count:=count+2;
+    if (23 mod k=0) then count:=count+2;
+    if (55 mod k=0) then count:=count+2;
+    if (48 mod k=0) then count:=count+2;
+    if (46 mod k=0) then count:=count+2;
+    if (58 mod k=0) then count:=count+2;
+    if (41 mod k=0) then count:=count+2;
+    if (51 mod k=0) then count:=count+2;
+    if (54 mod k=0) then count:=count+2;
+    if (56 mod k=0) then count:=count+2;
+    if (64 mod k=0) then count:=count+2;
+    if (49 mod k=0) then count:=count+2;
+    if (60 mod k=0) then count:=count+2;
+    if (65 mod k=0) then count:=count+2;
+    if (11 mod k=0) then count:=count+2;
+    if (47 mod k=0) then count:=count+2;
+    if (53 mod k=0) then count:=count+2;
+    if (61 mod k=0) then count:=count+2;
+    if (68 mod k=0) then count:=count+2;
+    if (57 mod k=0) then count:=count+2;
+    if (70 mod k=0) then count:=count+2;
+    if (70 mod k=0) then count:=count+2;
+    if (59 mod k=0) then count:=count+2;
+    if (62 mod k=0) then count:=count+2;
+    if (72 mod k=0) then count:=count+2;
+    if (75 mod k=0) then count:=count+2;
+    if (67 mod k=0) then count:=count+2;
+    if (80 mod k=0) then count:=count+2;
+    writeln (count);
+  end
+  else
+  begin
+    if (n<>2) and (n<>3) and (n<>4) then writeln ('10');
+  end;
+  readln;
+  readln;
+end.

@@ -1,0 +1,10 @@
+Var
+n,p,q:integer;
+f:real;
+Begin
+WriteLn(n);
+WriteLn(p);
+WriteLn(q);
+WriteLn(1/p<f<1/q);
+ReadLn(f);
+End.

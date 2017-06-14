@@ -1,0 +1,26 @@
+var k: longint;
+n, i, x: integer;
+a: array [1..11] of integer;
+b: array [1..11] of integer;
+begin;
+readln(k);
+i:=1;
+while k>0 do begin;
+a[i]:=k mod 10;
+k:=k div 10;
+i:=i+1;
+end;
+x:=1;
+while a[i]=0 do i:=i-1;
+while i>0 do begin;
+b[x]:=a[i];
+x:=x+1;
+i:=i-1;
+end;
+while b[x]=0 do x:=x-1;
+while x>0 do begin;
+if b[x]=0 then n:=n+1;
+x:=x-1;
+end;
+write(n);
+end.

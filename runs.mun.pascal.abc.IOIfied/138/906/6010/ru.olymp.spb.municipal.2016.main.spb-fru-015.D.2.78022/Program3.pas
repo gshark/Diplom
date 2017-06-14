@@ -1,0 +1,3 @@
+begin
+write(0);
+end.

@@ -53,7 +53,7 @@ public class RunTree {
             //String res = result.s;
             //System.err.println(res);
             if (needPic) {
-                DSutils.show(ast, 100, 20);
+                DSutils.show(ast, 70, 20);
             }
             //dfs(ast, ast, 0, 0);
             System.out.println(cnt);

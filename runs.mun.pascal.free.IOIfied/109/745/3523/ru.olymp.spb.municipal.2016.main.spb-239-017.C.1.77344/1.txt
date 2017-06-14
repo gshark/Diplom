@@ -1,0 +1,602 @@
+program Project1;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes, SysUtils, CustApp, math
+  { you can add units after this };
+
+var
+  a: array [1..100, 1..100] of char;
+  n, i, j, k: integer;
+begin
+  readln (n);
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if (i=j) or (i+j-1=n) then a[i, j]:='a'
+      else a[i, j]:='0';
+    end;
+  end;
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='a') or (a[i, j+1]='a')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='b';
+      end;
+    end;
+  end;
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='b') or (a[i, j+1]='b')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='c';
+      end;
+    end;
+  end;
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='c') or (a[i, j+1]='c')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='d';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='d') or (a[i, j+1]='d')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='e';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='e') or (a[i, j+1]='e')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='f';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='f') or (a[i, j+1]='f')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='g';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='g') or (a[i, j+1]='g')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='h';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='h') or (a[i, j+1]='h')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='i';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='i') or (a[i, j+1]='i')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='j';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='j') or (a[i, j+1]='j')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='k';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='k') or (a[i, j+1]='k')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='l';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='l') or (a[i, j+1]='l')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='m';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='m') or (a[i, j+1]='m')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='n';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='n') or (a[i, j+1]='n')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='o';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='o') or (a[i, j+1]='o')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='p';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='p') or (a[i, j+1]='p')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='q';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='q') or (a[i, j+1]='q')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='r';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='r') or (a[i, j+1]='r')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='s';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='s') or (a[i, j+1]='s')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='t';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='t') or (a[i, j+1]='t')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='u';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='u') or (a[i, j+1]='u')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='v';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='v') or (a[i, j+1]='v')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='w';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='w') or (a[i, j+1]='w')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='x';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='x') or (a[i, j+1]='x')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='y';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='y') or (a[i, j+1]='y')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='z';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='z') or (a[i, j+1]='z')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='a';
+      end;
+    end;
+  end;
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='a') or (a[i, j+1]='a')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='b';
+      end;
+    end;
+  end;
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='b') or (a[i, j+1]='b')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='c';
+      end;
+    end;
+  end;
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='c') or (a[i, j+1]='c')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='d';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='d') or (a[i, j+1]='d')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='e';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='e') or (a[i, j+1]='e')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='f';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='f') or (a[i, j+1]='f')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='g';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='g') or (a[i, j+1]='g')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='h';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='h') or (a[i, j+1]='h')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='i';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='i') or (a[i, j+1]='i')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='j';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='j') or (a[i, j+1]='j')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='k';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='k') or (a[i, j+1]='k')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='l';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='l') or (a[i, j+1]='l')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='m';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='m') or (a[i, j+1]='m')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='n';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='n') or (a[i, j+1]='n')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='o';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='o') or (a[i, j+1]='o')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='p';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='p') or (a[i, j+1]='p')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='q';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='q') or (a[i, j+1]='q')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='r';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='r') or (a[i, j+1]='r')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='s';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='s') or (a[i, j+1]='s')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='t';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='t') or (a[i, j+1]='t')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='u';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='u') or (a[i, j+1]='u')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='v';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='v') or (a[i, j+1]='v')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='w';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='w') or (a[i, j+1]='w')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='x';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='x') or (a[i, j+1]='x')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='y';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='y') or (a[i, j+1]='y')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='z';
+      end;
+    end;
+  end;
+  //
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if ((a[i, j-1]='z') or (a[i, j+1]='z')) and (a[i, j]='0') then
+      begin
+        a[i, j]:='a';
+      end;
+    end;
+  end;
+  /////////////////////////////////
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      write (a[i, j], ' ');
+    end;
+    writeln;
+  end;
+  readln;
+  readln;
+end.

@@ -1,0 +1,6 @@
+var a,b,SUM: INTEGER;
+BEGIN READ(A);B:=0;
+WHILE A>0 DO  BEGIN
+IF (A MOD 10) >0 THEN B:=B+1  ELSE  IF B>0 THEN  SUM := SUM+1 ; a:=a div 10;  
+END;  WRITELN (SUM) END. 
+ 

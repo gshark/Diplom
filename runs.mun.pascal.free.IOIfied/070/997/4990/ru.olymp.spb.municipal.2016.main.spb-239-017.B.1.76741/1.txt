@@ -1,0 +1,72 @@
+program Project1;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes, SysUtils, CustApp, math
+  { you can add units after this };
+
+function nod (a, b: integer): integer;
+var
+  i, prov: integer;
+begin
+  prov:=0;
+  for i:=2 to trunc(sqrt(max(a, b))) do
+  begin
+    if (min(a, b) mod i=0) and (max(a, b) mod i=0) then
+    begin
+      result:=0;
+      prov:=1;
+      break;
+    end;
+  end;
+  if (prov=0) then result:=1;
+end;
+
+var
+  a: array [1..100000] of integer;
+  b: array [1..100000] of integer;
+  c: array [1..100000] of extended;
+  n, p, q, i, j, count: integer;
+  min: extended;
+begin
+  count:=1;
+  read (n, p, q);
+  for i:=1 to n do
+  begin
+    for j:=1 to n do
+    begin
+      if (i/j>1/p) and (i/j<1/q) and (nod(i, j)=1) then
+      begin
+        a[count]:=i;
+        b[count]:=j;
+        c[count]:=i/j;
+        count:=count+1;
+      end;
+    end;
+  end;
+  for i:=1 to count do
+  begin
+    min:=1000;
+    for j:=1 to count do
+    begin
+      if (c[j]<min) then
+      begin
+        min:=c[j];
+      end;
+    end;
+    for j:=1 to count do
+    begin
+      if (c[j]=min) then
+      begin
+        c[j]:=10000;
+        if (a[j]<>0) then writeln (a[j], '/', b[j]);
+      end;
+    end;
+  end;
+  readln;
+  readln;
+end. 

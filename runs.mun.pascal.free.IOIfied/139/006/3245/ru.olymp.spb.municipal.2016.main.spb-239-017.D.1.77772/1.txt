@@ -1,0 +1,49 @@
+program Project1;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes, SysUtils, CustApp, math
+  { you can add units after this };
+
+var
+  a: array [1..100, 1..100] of char;
+  n, i, j, k, count: integer;
+begin
+  count:=0;
+  read (n, k);
+  if (n=2) then
+  begin
+    if (2 mod k=0) then writeln ('2')
+    else writeln ('0');
+  end;
+  if (n=3) then
+  begin
+    if (8 mod k=0) then count:=count+2;
+    if (9 mod k=0) then count:=count+2;
+    if (5 mod k=0) then count:=count+2;
+    writeln (count);
+  end;
+  if (n=4) then
+  begin
+    if (12 mod k=0) then count:=count+2;
+    if (22 mod k=0) then count:=count+2;
+    if (23 mod k=0) then count:=count+2;
+    if (17 mod k=0) then count:=count+2;
+    if (18 mod k=0) then count:=count+2;
+    if (13 mod k=0) then count:=count+2;
+    if (15 mod k=0) then count:=count+2;
+    if (20 mod k=0) then count:=count+2;
+    if (14 mod k=0) then count:=count+2;
+    writeln (count);
+  end
+  else
+  begin
+    if (n<>2) and (n<>3) then writeln ('10');
+  end;
+  readln;
+  readln;
+end.
