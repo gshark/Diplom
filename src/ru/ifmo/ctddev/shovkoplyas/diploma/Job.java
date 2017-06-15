@@ -19,7 +19,12 @@ public class Job {
     String name;
     String code;
 
-    public String getCode(String path) {
+    public String getFileName() {
+        return String.format("%s.%02d.%s.%s.%02d.pas",
+                problemId, testNumber, verdict, party, attempt);
+    }
+
+    public String loadCode(String path) {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(
                     new FileInputStream(new File(path)), Charset.forName("windows-1251")));
@@ -46,9 +51,14 @@ public class Job {
         attempt = Integer.parseInt(ttmp[ttmp.length - 2]);
 
         problem = lines[1].split(": ")[1];
+
         party = lines[2].split(": ")[1];
+        String tmpp[] = party.split("\\.");
+        String newParty = tmpp[tmpp.length - 1];
+        party = newParty;
+
         language = lines[3].split(": ")[1];
-        testNumber = Integer.parseInt(lines[4].split(": ")[1]);
+        testNumber = Integer.parseInt(lines[4].split(": ")[1]) + 1;
         verdict = lines[5].split(": ")[1];
         int k = 6;
         while (!lines[k].contains("Sources")) k++;
@@ -57,7 +67,7 @@ public class Job {
             throw new AssertionError();
         name = lines[k + 1].split("'")[1];
 
-        code = getCode(summaryPath + "/" + path + "/" + name);
+        code = loadCode(summaryPath + "/" + path + "/" + name);
     }
 
     @Override
