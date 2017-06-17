@@ -228,10 +228,22 @@ public class JobBase {
 
         for (int i = 0; i < 5; i++) {
             try {
+                Collections.sort(gr[i], new Comparator<Pair<Integer, Double>>() {
+                    @Override
+                    public int compare(Pair<Integer, Double> o1, Pair<Integer, Double> o2) {
+                        return o1.getFirst().compareTo(o2.getFirst());
+                    }
+                });
                 PrintWriter pw = new PrintWriter(new File("gr" + i + ".csv"));
+                int q = 0;
                 for (Pair p : gr[i]) {
-                    pw.println(p.getFirst() + " " + p.getSecond());
+                    pw.println(q++ + " " + p.getSecond());
                 }
+                for (Pair p : gr[i]) {
+                    pw.print(p.getFirst() + ",");
+                }
+                pw.println();
+
                 pw.close();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
