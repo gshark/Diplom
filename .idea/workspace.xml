@@ -93,8 +93,8 @@
       <file leaf-file-name="JobBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/JobBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="240" column="17" selection-start-line="240" selection-start-column="17" selection-end-line="240" selection-end-column="17" />
+            <state relative-caret-position="393">
+              <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3293#3659#0" expanded="true" />
@@ -1159,8 +1159,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shovkoplyas/diploma/JobBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="240" column="17" selection-start-line="240" selection-start-column="17" selection-end-line="240" selection-end-column="17" />
+        <state relative-caret-position="393">
+          <caret line="241" column="29" selection-start-line="241" selection-start-column="29" selection-end-line="241" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3293#3659#0" expanded="true" />

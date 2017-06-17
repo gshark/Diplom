@@ -235,9 +235,8 @@ public class JobBase {
                     }
                 });
                 PrintWriter pw = new PrintWriter(new File("gr" + i + ".csv"));
-                int q = 0;
                 for (Pair p : gr[i]) {
-                    pw.println(q++ + " " + p.getSecond());
+                    pw.println(p.getFirst() + " " + p.getSecond());
                 }
                 for (Pair p : gr[i]) {
                     pw.print(p.getFirst() + ",");
