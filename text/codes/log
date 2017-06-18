@@ -1,0 +1,15 @@
+17,19c17,22
+<           if k>26 then kk:=26-k
+<                   else kk:=k;    
+<             if (a[i,j]=0)and((a[i-1,j]=kk-1)or(a[i+1,j]=kk-1)or(a[i,j-1]=kk-1)or(a[i,j+1]=kk-1)) then begin
+---
+>           if k>27 then kk:=k-26
+>                   else kk:=k;         
+>           if (a[i,j]=0)and((a[i-1,j]=kk-1)or(a[i+1,j]=kk-1)or(a[i,j-1]=kk-1)or(a[i,j+1]=kk-1)) then begin
+>             if kk=27 then
+>               a[i,j]:=kk-26
+>             else
+21c24
+<             end;
+---
+>           end;
