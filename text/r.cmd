@@ -1,10 +1,10 @@
 @echo off
 for %%i in (*.tex) do (
     echo %%~ni
-    pdflatex %%~ni
+    xelatex %%~ni
     biber    %%~ni
-    pdflatex %%~ni
-    pdflatex %%~ni
+    xelatex %%~ni
+    xelatex %%~ni
 )
             
 rem pdflatex analysis-advanced.tex
