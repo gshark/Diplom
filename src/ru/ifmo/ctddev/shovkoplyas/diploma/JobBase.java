@@ -149,7 +149,7 @@ public class JobBase {
             }
         }
 
-        ArrayList<Pair<Integer, Double>> gr[] = new ArrayList[5];
+        ArrayList<Pair<Integer, Pair<Double, Double>>> gr[] = new ArrayList[5];
         for (int i = 0; i < 5; i++)
             gr[i] = new ArrayList<>();
         //choose concrete problem-test
@@ -172,6 +172,8 @@ public class JobBase {
             int cnt = 0;
             int canDiff = 0;
             int sumDiff = 0;
+            int codeLines = 0;
+            int codeCnt = 0;
             //for (Map.Entry<String, ArrayList<Pair<Integer, Integer>>> entry : history[cur].entrySet()) {
             for (String part : curParties) {
                 ArrayList<Pair<Integer, Integer>> value = history[cur].get(part);
@@ -197,7 +199,8 @@ public class JobBase {
                 String code2 = codes.get(key2);
                 if (code1 == null || code2 == null)
                     throw new AssertionError();
-
+                codeLines += code1.split("\n").length;
+                codeCnt++;
                 printToFile(code1, "__code1.pas");
                 printToFile(code2, "__code2.pas");
                 int cntDiff = 0;
@@ -220,30 +223,42 @@ public class JobBase {
 
 
             }
-            System.out.println(String.format("/%d/%.2f", cnt,
-                    (canDiff == 0) ? -1 : (double) sumDiff / canDiff));
+            System.out.println(String.format("/%d/%.2f/%.2f", cnt,
+                    (canDiff == 0) ? -1 : (double) sumDiff / canDiff,
+                    (codeCnt == 0) ? -1 : (double) codeLines / codeCnt));
             if (canDiff != 0)
-                gr[cur].add(new Pair(curTest, (double) sumDiff / canDiff));
+                gr[cur].add(new Pair(curTest, new Pair((double) sumDiff / canDiff, (double) codeLines / codeCnt)));
         }
 
         for (int i = 0; i < 5; i++) {
             try {
-                Collections.sort(gr[i], new Comparator<Pair<Integer, Double>>() {
+                Collections.sort(gr[i], new Comparator<Pair<Integer, Pair<Double, Double>>>() {
                     @Override
-                    public int compare(Pair<Integer, Double> o1, Pair<Integer, Double> o2) {
+                    public int compare(Pair<Integer, Pair<Double, Double>> o1, Pair<Integer, Pair<Double, Double>> o2) {
                         return o1.getFirst().compareTo(o2.getFirst());
                     }
+
                 });
                 PrintWriter pw = new PrintWriter(new File("gr" + i + ".csv"));
-                for (Pair p : gr[i]) {
-                    pw.println(p.getFirst() + " " + p.getSecond());
+                PrintWriter len = new PrintWriter(new File("len" + i + ".csv"));
+                for (Pair<Integer, Pair<Double, Double>> p : gr[i]) {
+                    pw.println(p.getFirst() + " " + p.getSecond().getFirst());
                 }
-                for (Pair p : gr[i]) {
+                for (Pair<Integer, Pair<Double, Double>> p : gr[i]) {
                     pw.print(p.getFirst() + ",");
                 }
                 pw.println();
 
                 pw.close();
+                for (Pair<Integer, Pair<Double, Double>> p : gr[i]) {
+                    len.println(p.getFirst() + " " + p.getSecond().getSecond());
+                }
+                for (Pair<Integer, Pair<Double, Double>> p : gr[i]) {
+                    len.print(p.getFirst() + ",");
+                }
+                len.println();
+
+                len.close();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
