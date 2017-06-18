@@ -1,0 +1,92 @@
+\documentclass{article}
+
+% http://sourceforge.net/projects/pgfplots/
+\usepackage{pgfplots, pgfplotstable}
+\pgfplotsset{compat=newest}
+
+
+\begin{document}
+\begin{tabular}{c c}
+
+\hbox{
+\begin{tikzpicture}
+    \begin{axis}[
+        title = A,
+        xlabel = Test number,
+        ylabel = Average diff,
+         enlargelimits=0.15,
+        ybar stacked, 
+        symbolic x coords={1,2,3,4,5,8,9},
+        xtick=data,
+        ]
+        \addplot table {gr0.csv};
+    \end{axis}
+\end{tikzpicture}}
+
+&
+\hbox{
+\begin{tikzpicture}
+    \begin{axis}[
+        title = B,
+        xlabel = Test number,
+        %ylabel = Average diff,
+        ybar stacked, 
+        symbolic x coords={1,2,7,8,10,16,17,19},
+        xtick=data,
+        ]
+        \addplot table {gr1.csv};
+    \end{axis}
+\end{tikzpicture} }
+
+\\
+
+\hbox{
+\begin{tikzpicture}
+    \begin{axis}[
+        title = C,
+        width=300,
+        xlabel = Test number,
+        ylabel = Average diff,
+        ybar stacked, 
+        symbolic x coords={1,2,3,4,5,6,7,8,10,11,15,17,20},
+        xtick=data,
+        ]
+        \addplot table {gr2.csv};
+    \end{axis}
+\end{tikzpicture} }
+
+& 
+
+\hbox{
+
+\begin{tikzpicture}
+    \begin{axis}[
+        title = D,
+        xlabel = Test number,
+        %ylabel = Average diff,
+        ybar stacked, 
+        symbolic x coords={1,2,3,4,6,14,29,46},
+        xtick=data,
+        ]
+        \addplot table {gr3.csv};
+    \end{axis}
+\end{tikzpicture}}
+
+\\
+\end{tabular}
+
+\begin{tikzpicture}
+    \begin{axis}[
+        title = E,
+        xlabel = Test number,
+        ylabel = Average diff,
+        ybar stacked, 
+        symbolic x coords={1,2,3,5,8,22},
+        xtick=data,
+        ]
+        \addplot table {gr4.csv};
+    \end{axis}
+\end{tikzpicture}
+
+
+\end{document}
