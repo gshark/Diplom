@@ -1,6 +1,6 @@
 var n, p, q, a, b, k, m, v, w, t, h, y, i, j:integer;
 var c, g: real;
-var z: array [1..150,1..3] of real;
+var z: array [1..100,1..25] of real;
 begin;
 readln(n, p, q);
 for b:=2 to n do begin

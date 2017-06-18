@@ -14,7 +14,7 @@ begin
           if (i=j)or(n-i+1=j)or(n-j+1=i) then a[i,j]:=1;
         end
         else begin
-          if k>26 then kk:=26-k
+          if k>26 then kk:=k-26
                   else kk:=k;    
             if (a[i,j]=0)and((a[i-1,j]=kk-1)or(a[i+1,j]=kk-1)or(a[i,j-1]=kk-1)or(a[i,j+1]=kk-1)) then begin
               a[i,j]:=kk;
