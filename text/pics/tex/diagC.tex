@@ -1,0 +1,44 @@
+\documentclass[times,specification,annotation]{itmo-student-thesis}
+
+%% Опции пакета:
+%% - specification - если есть, генерируется задание, иначе не генерируется
+%% - annotation - если есть, генерируется аннотация, иначе не генерируется
+%% - times - делает все шрифтом Times New Roman, требует пакета pscyr.
+
+%% Делает запятую в формулах более интеллектуальной, например: 
+%% $1,5x$ будет читаться как полтора икса, а не один запятая пять иксов. 
+%% Однако если написать $1, 5x$, то все будет как прежде.
+\usepackage{icomma}
+\usepackage{booktabs}
+
+\usepackage{subcaption,floatrow,graphicx,calc}
+\floatsetup{floatrowsep=qquad}
+
+%\usepackage{floatrow}
+%\usepackage{graphicx}
+%% Данные пакеты необязательны к использованию в бакалаврских/магистерских
+%% Они нужны для иллюстративных целей
+%% Начало
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{filecontents}
+
+\usepackage{pgfplots, pgfplotstable}
+\pgfplotsset{compat=newest}
+
+\begin{document}
+\begin{tikzpicture}
+    \begin{axis}[
+        title = C,
+        width=300, 
+        xlabel = Test number,
+        ylabel = Average diff,
+        ybar stacked, 
+        symbolic x coords={1,2,3,4,5,6,7,8,10,11,15,17,20},
+        xtick=data,
+        ]
+        \addplot table {graph/gr2.csv};
+    \end{axis}
+\end{tikzpicture}
+
+\end{document}
